@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 #A program to read values from a dict object which is inside a list and utilizing if/elif/else
-
+line = 1
 users = [
 { 'admin' : False, 'active' : False, 'name' : 'baburao' },
 { 'admin' : True, 'active' : False, 'name' : 'baburao_ka_beta' },
@@ -9,6 +9,7 @@ users = [
 { 'admin' : True, 'active' : True, 'name' : 'baburao_ki_beti' },
 ] 
 for user in users:
+    print("Line : %d " %line)
     if user['admin'] and  user['active']:
         print("ACTIVE - (ADMIN) " + user['name'])
     elif user['admin'] and  user['active'] ==False:
@@ -17,3 +18,4 @@ for user in users:
         print("ACTIVE " + user['name'])
     else:
         print("Inactive user - " + user['name'])
+    line += 1
