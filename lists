@@ -1,0 +1,230 @@
+Script started on Thu 15 Aug 2019 10:46:45 AM UTC
+]0;cloud_user@dubeyakash1c:~/development/python[?1034h[cloud_user@dubeyakash1c python]$ python[K[K[K[K[K[Kclear
+[3;J[H[2J]0;cloud_user@dubeyakash1c:~/development/python[cloud_user@dubeyakash1c python]$ clearat working_with_variables ls[Kscript working_with_variablesls[K[K[Kpython
+Python 2.7.5 (default, Jun 20 2019, 20:27:34) 
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-36)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+[?1034h>>> my_list = [ 1 , 2 , 3 ,4 ]
+>>> another_list = [1 ,abc ,3 ]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'abc' is not defined
+>>> another_list = [1 ,abc ,3 ][1P[C[C[1P
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'b' is not defined
+>>> another_list = [1 ,b ,3 ][1@'[C[1@'
+>>> type(my_list)
+<type 'list'>
+>>> type(my_list)[1P_list)[1P_list)a_list)n_list)o_list)t_list)e_list)h_list)r_list)[1P_list)[1P_list)[1P_list)h_list)e_list)r_list)
+<type 'list'>
+>>>  more_list[[K[Kt = [K'[][1P[] [][C1],]2],]3],]á]k]a]s]h]']'ákash'][C[C[C[C[C[C,]T]r]u]e],] ]-]3]
+  File "<stdin>", line 1
+    more_list = [1,2,3,'ákash',True, -3]
+    ^
+IndentationError: unexpected indent
+>>>  more_list = [1,2,3,'ákash',True, -3][C[C[C[C[C[1P
+>>> type(more_list)
+<type 'list'>
+>>> type(more_list)[C[C[C[1P(more_list)[C[C[C[C[C[C[C[1P(more_list)[C[C[C[C[C[C[1P(more_list)[C[C[C[C[C[1P(more_list)[C[C[C[Cp(more_list)[C[C[C[C[Cr(more_list)[C[C[C[C[C[Ci(more_list)[C[C[C[C[C[C[Cn(more_list)[C[C[C[C[C[C[C[Ct(more_list)[C[C[C[C[C[C[C[C[C
+[1, 2, 3, '\xc3\xa1kash', True, -3]
+>>> print(more_list)[1P_list)[1P_list)[1P_list)[1P_list)m_list)y_list)
+[1, 2, 3, 4]
+>>> print(my_list)[1P_list)[1P_list)a_list)n_list)o_list)t_list)e_list)h_list)r_list)[1P_list)[1P_list)[1P_list)h_list)e_list)r_list)
+[1, 'b', 3]
+>>> print(another_list)[)0)])
+1
+>>> print(another_list[0])[1P])1])
+b
+>>> print(another_list[1])[1P])2])
+3
+>>> print(another_list[2])[1P])3])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> lne[K[Ken(my      [K_list)
+4
+>>> len(my_list)[C[C[C[C[C[C[C[Cprint(another_list[3])2])-2])[C2])[1P])
+b
+>>> print(another_list[-2])[1P])3])
+1
+>>> print(another_list[-3])[1P])4])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> print(another_list[-4])[1P])0])
+1
+>>> print(another_list[-0])[1P])1])
+3
+>>> print(another_list[-1])[1P])2])
+b
+>>> print(another_list[-2])[1P])3])
+1
+>>> my_list = [[K[K[K[K[0:3]
+[1, 2, 3]
+>>> my_list[0:3][1P]
+[1, 2, 3, 4]
+>>> my_list[0:][1P:][C3]
+[1, 2, 3]
+>>> m[Kanother_list[0:len(another_list)::1]
+  File "<stdin>", line 1
+    another_list[0:len(another_list)::1]
+                                     ^
+SyntaxError: invalid syntax
+>>> another_list[0:len(another_list)::1][1Plen(another_list)::1][C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Plen(another_list)::1][C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Plen(another_list)::1][C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Plen(another_list)::1][C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Plen(another_list)::1][C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Plen(another_list)::1][C[C[C[C[C[C[C[C[C[C[C[C[C[1Pen(another_list)::1][C[C[C[C[C[C[C[C[C[C[C[C[1Plen(another_list)::1][C[C[C[C[C[C[C[C[C[C[C[1Plen(another_list)::1][C[C[C[C[C[C[C[C[C[C[1Plen(another_list)::1][C[C[C[C[C[C[C[C[C[1Plen(another_list)::1][C[C[C[C[C[C[C[C[1Plen(another_list)::1][C[C[C[C[C[C[C[1Plen(another_list)::1][C[C[C[C[C[C[1Plen(another_list)::1][C[C[C[C[C[1Plen(another_list)::1][C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K
+3
+>>> len(another_list)[1P_list)[1P_list)[1P_list)[1P_list)[1P_list)[1P_list)[1P_list)m_list)y_list)
+4
+>>> len(my_list)[1P_list)[1P_list)m_list)o_list)r_list)e_list)
+6
+>>> more_list[[K[C[C[C[Cpmore_list[C[C[C[C[Crmore_list[C[C[C[C[C[Cimore_list[C[C[C[C[C[C[Cnmore_listtmore_list(more_list[C[C[C[C[C[C[C[C[C)
+[1, 2, 3, '\xc3\xa1kash', True, -3]
+>>> print(more_list)[C[C[C[C[1Print(more_list)[C[C[C[C[1Pint(more_list)[C[C[C[C[1Pnt(more_list)[C[C[C[C[1Pt(more_list)[C[C[C[C[1P(more_list)[C[C[C[C[1Pmore_list)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[0:]
+[1, 2, 3, '\xc3\xa1kash', True, -3]
+>>> more_list[0:]1]
+[1]
+>>> more_list[0:1][1P]2]
+[1, 2]
+>>> more_list[0:2][1P]3]
+[1, 2, 3]
+>>> more_list[0:3][1P]4]
+[1, 2, 3, '\xc3\xa1kash']
+>>> more_list[0:4][1P:4]
+[1, 2, 3, '\xc3\xa1kash']
+>>> more_list[:4][C[1P]3]
+[1, 2, 3]
+>>> more_list[:3]0:3][C[C[1P]:]:][1P]1]
+[1, 2, 3, '\xc3\xa1kash', True, -3]
+>>> more_list[0::1][1P]2]
+[1, 3, True]
+>>> more_list[0::2][C[C[1P::2]1::2]
+[2, '\xc3\xa1kash', -3]
+>>> more_list[1::2]0::2]1][2P:3]4]0:4][1P:4][1P]
+[1, 2, 3, '\xc3\xa1kash', True, -3]
+>>> more_list.append('new value')
+>>> p[Kmore_lisrt[K[Kt
+[1, 2, 3, '\xc3\xa1kash', True, -3, 'new value']
+>>> more_list.append('new value')[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)4)2)0)
+>>> more_list.append(420)[K
+[1, 2, 3, '\xc3\xa1kash', True, -3, 'new value', 420]
+>>> more_list.append(420)1420):420)
+  File "<stdin>", line 1
+    more_list.append(1:420)
+                      ^
+SyntaxError: invalid syntax
+>>> more_list[1:[1P:0:[C3]= [ ''a'a'[C, [[[C[K[K''b'b'[C, çc[K[K'' '[1P'c'c'[C, 'dd']
+>>> more_list
+['aa', 'bb', 'cc', 'dd', '\xc3\xa1kash', True, -3, 'new value', 420]
+>>> more_list[0:3]= [ 'aa', 'bb', 'cc', 'dd'][C[C,] ]é]e][1P][1P]']e]e]']
+>>> more_list[0:3]= [ 'aa', 'bb', 'cc', 'dd', 'ee'][C[C[C[C[C[C[C[C[C[C[C[C[C[K
+['aa', 'bb', 'cc', 'dd', 'ee', 'dd', '\xc3\xa1kash', True, -3, 'new value', 420]
+>>> more_list[0:3]= [ 'aa', 'bb', 'cc', 'dd', 'ee'][C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P][1P]9]9].][1P],]9]9],]9]9],]9]9],]9]9],]9]9]
+>>> more_list[0:3]= [99,99,99,99,99,99][C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[99, 99, 99, 99, 99, 99, 'dd', 'ee', 'dd', '\xc3\xa1kash', True, -3, 'new value', 420]
+>>> more_list[0:3]= [99,99,99,99,99,99][C[C[C[C[C[C[C[1P[1@0[C[C[C[C[C[1P,99,99,99,99,99][1P,99,99,99,99,99][1P99,99,99,99,99][C[1P,99,99,99,99][1P,99,99,99,99][1P99,99,99,99][C[1P,99,99,99][1P,99,99,99][1P99,99,99][C[1P,99,99][1P,99,99][1P99,99][C[1P,99][1P,99][1P99][C[1P][1P][K'hero-no1']
+>>> more_list[0:0]= ['hero-no1'][C[C[C[C[C[C[C[C[C[C[C[C[C[K
+['hero-no1', 99, 99, 99, 99, 99, 99, 'dd', 'ee', 'dd', '\xc3\xa1kash', True, -3, 'new value', 420]
+>>> more_list[0:0]= ['hero-no1'][1P[1@5[1@4[1P[C[C[1P[1@5[C[C[C[C[C[C[C[C[C[C[C[C[C[1P']2']
+>>> more_list[5:5]= ['hero-no2'][C[C[C[C[C[C[C[C[C[C[C[C[C[K
+['hero-no1', 99, 99, 99, 99, 'hero-no2', 99, 99, 'dd', 'ee', 'dd', '\xc3\xa1kash', True, -3, 'new value', 420]
+>>> my[K[Kmylist=[1,2]
+>>> mylist = [1,2,'a', b''b'[C[C]
+>>> mylist = [1,2,'a', 'b'][C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[:1]=[]
+>>> mylist[:1]=[] = [1,2,'a', 'b'][C[C[C[C[C[C[C[C[C[C[10P[:1]=[][C[C[C[C[Kmt[Kylist
+[2, 'a', 'b']
+>>> mylist[:1]=[][1P]=[]4]=[]
+>>> mylist[:4]=[][K
+[]
+>>> mylist[:4]=[][K[:1]=[] = [1,2,'a', 'b']
+>>> mylist = [1,2,'a', 'b'][C[C[C[C[C[C[C[C[C[C[K[:4]=[][1P]=[]3]=[]
+>>> mylist[:3]=[] = [1,2,'a', 'b'][C[C[C[C[C[C[C[C[C[C[K
+['b']
+>>> mylist[:3]=[] = [1,2,'a', 'b']
+>>> mylist = [1,2,'a', 'b'][C[C[C[C[C[C[C[C[C[C[K[C[:3]=[]1:3]=[]
+>>> mylist[1:3]=[] = [1,2,'a', 'b'][C[C[C[C[C[C[C[C[C[C[K
+[1, 'b']
+>>> mylist[1:3]=[] = [1,2,'a', 'b']
+>>> mylist = [1,2,'a', 'b'][K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K.remove('b')
+>>> mylist.remove('b')[C[C[C[C[C[C[C[C[C[C = [1,2,'a', 'b'][C[C[C[C[C[C[C[C[C[C[K
+[1, 2, 'a']
+>>> mylist.remove('b')[1P')f')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: list.remove(x): x not in list
+>>> myli        [Kst
+[1, 2, 'a']
+>>> mylist.pop()
+'a'
+>>> mylist
+[1, 2]
+>>> mylist.push(á[K'' a'[1P a'[1Pa'[C[C)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'push'
+>>> mylist
+[1, 2]
+>>> mylist.append(23)
+>>> mylist
+[1, 2, 23]
+>>> mylist('hello')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'list' object is not callable
+>>> mylist('hello').('hello')a('hello')p('hello')p('hello')e('hello')n('hello')d('hello')
+>>> mylist.append('hello')[C[C[C[C[Kmylist
+[1, 2, 23, 'hello']
+>>> mylist.append(0[K[K[K[K[K[K[K[Kpop(0)
+1
+>>> mylist.pop(0)[K
+[2, 23, 'hello']
+>>> mylist.pop(2)
+'hello'
+>>> mylist
+[2, 23]
+>>> mylist.pop(0:1)[C[1P)2)
+  File "<stdin>", line 1
+    mylist.pop(0:2)
+                ^
+SyntaxError: invalid syntax
+>>> mylist.pop(0:2)[1P:2)
+  File "<stdin>", line 1
+    mylist.pop(:2)
+               ^
+SyntaxError: invalid syntax
+>>> mylist.pop(:2)[1P)[1P)0)
+2
+>>> mylist.pop(0)[1P)1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: pop index out of range
+>>> mylist.pop(1)[C[C[C[C[Kmylist
+[23]
+>>> mylist.pop
+<built-in method pop of list object at 0x7f8940260a28>
+>>> mylist.pop()
+23
+>>> mylist.pop()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: pop from empty list
+>>> [].pop()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: pop from empty list
+>>>  '' [1@n[1@o[1@t[1@e[1@:[1@ [1@l[1@i[1@s[1@t[1@s[1@ [1@a[1@r[1@e[1@ [1@m[1@u[1@t[1@a[1@b[1@l[1@e
+  File "<stdin>", line 1
+    'note: lists are mutable' 
+    ^
+IndentationError: unexpected indent
+>>>  'note: lists are mutable' [K[K"[C[C[1P[1@"
+  File "<stdin>", line 1
+    "note: lists are mutable"
+    ^
+IndentationError: unexpected indent
+>>>  "note: lists are mutable"[C'note: lists are mutable' [C[C[C[C[C[1P
+'note: lists are mutable'
+>>> 
+]0;cloud_user@dubeyakash1c:~/development/python[cloud_user@dubeyakash1c python]$ e[Kexit
+exit
+
+Script done on Thu 15 Aug 2019 12:52:37 PM UTC

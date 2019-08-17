@@ -1,0 +1,53 @@
+Script started on Thu 15 Aug 2019 10:38:29 AM UTC
+]0;cloud_user@dubeyakash1c:~/development/python[?1034h[cloud_user@dubeyakash1c python]$ cp [K[K[Kpython[K[K[K[K[K[Kclear
+[3;J[H[2J]0;cloud_user@dubeyakash1c:~/development/python[cloud_user@dubeyakash1c python]$ python
+Python 2.7.5 (default, Jun 20 2019, 20:27:34) 
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-36)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+[?1034h>>> my_str = "This is a simple string"
+>>> pit[K[Kuts my     [K[Ky_str
+  File "<stdin>", line 1
+    puts my_str
+              ^
+SyntaxError: invalid syntax
+>>> puts my_str[C[C[C[1P my_str[1P my_str[1P my_str[C[C[C[C[C[1P my_str[C[C[C[C
+  File "<stdin>", line 1
+    my_str
+    ^
+IndentationError: unexpected indent
+>>>  my_str[C[C[C[C[1Pmy_str[C[C[C[C
+'This is a simple string'
+>>> print(my_str)
+This is a simple string
+>>> my_str =[K+= "" more [K[K[K[K[K[K[Kmore text"
+>>> my_str += "more text"[C[C[C[C[8Pprint(my_str)
+This is a simple stringmore text
+>>> my_str += " more testsssss"
+>>> my_str += " more testsssss"[C[C[C[C[14Pprint(my_str)
+This is a simple stringmore text more testsssss
+>>> my_str
+'This is a simple stringmore text more testsssss'
+>>> my_str = 1
+>>> type(my_str)
+<type 'int'>
+>>> type(my_str)[C[C[C[C[2Pmy_str = 1[K[C[C[C[Cprint(my_str)[C[C[C[Cmy_str += " more testsssss"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+>>> my_str += " more testsssss"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kback to string"[C[C[C[C[C[1P
+>>> my_str = " back to string"[C[C[C[C[C[C[C[C[C[C[C+= " more testsssss"[C[C[C[C[15Ptype(my_str)
+<type 'str'>
+>>> type(my_str)[C[C[C[Cmy_str = " back to string"[C[C[C[C[C[C[C[C[C[C[C+= " more testsssss"[C[C[C[C[15Ptype(my_str)[C[C[C[C[2Pmy_str = 1[K[C[C[C[Cprint(my_str)
+ back to string
+>>> print(my_str)[C[C[C[C[1Ptype(my_str)[C[C[C[Cmy_str = " back to string"[C[C[C[C[C[C[C[C[C[C[C+= " more testsssss"[C[C[C[C[15Ptype(my_str)[C[C[C[C[2Pmy_str = 1
+>>> my_int = my_str
+>>> my_int = my_str[C[C[C[C[C[C[C[5Pstr = 1[C[C[C[Cprint(my_str)[C[C[C[C[1Ptype(my_str)[C[C[C[Cmy_str = " back to string"
+>>> type(my_int[K[K[Kstr)
+<type 'str'>
+>>> type(my_str)[C[1P)[1P)[1P)i)n)r)[1P)t)
+<type 'int'>
+>>> 
+]0;cloud_user@dubeyakash1c:~/development/python[cloud_user@dubeyakash1c python]$ exit
+exit
+
+Script done on Thu 15 Aug 2019 10:46:20 AM UTC

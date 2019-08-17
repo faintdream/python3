@@ -1,0 +1,103 @@
+Script started on Thu 15 Aug 2019 01:05:32 PM UTC
+]0;cloud_user@dubeyakash1c:~/development/python[?1034h[cloud_user@dubeyakash1c python]$ clear
+[3;J[H[2J]0;cloud_user@dubeyakash1c:~/development/python[cloud_user@dubeyakash1c python]$ python
+Python 2.7.5 (default, Jun 20 2019, 20:27:34) 
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-36)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+[?1034h>>> ages = { 'key[K[K[Kakash': 36 }[C }, }[C }' }n }e }e }l }u }' }: }[C }3 }3 }[C }, }[C }' }v }a }n }s }h }' }: }[C }1 }1 }[1P }0 }
+>>> ages
+{'neelu': 33, 'akash': 36, 'vansh': 10}
+>>> 'this is [K[K[K[K[K[K[K[KIf you notice closely in above example, the ordering of dict ages h as changed, this is how it is py 2.8[K7, version 3 onwards the ordering of  key pair persists'
+'If you notice closely in above example, the ordering of dict ages has changed, this is how it is py 2.7, version 3 onwards the ordering of key pair persists'
+>>> 'reading keys[K[K[K[K[K[K[K[K[K[Kading keys[K[K[K[Koperation'
+'reading operation'
+>>> ages['' vansh' ][C[1P[1@\[1P[1P[C[C[C[C[C[C[C[C
+10
+>>> ages['vansh' ][1@s[1@d[1@j[1@f[1@h
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'vanshsdjfh'
+>>> ages['vanshsdjfh' ][K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kérror because that jke[K[K[Kkey does nto exist'
+  File "<stdin>", line 1
+    érror because that key does nto exist'
+    ^
+SyntaxError: invalid syntax
+>>> érror because that key does nto exist'[C[C[C[C[1@'
+'\xc3\xa9rror because that key does nto exist'
+>>> ádding[K[K[K[K[K[K''a'd'd'i'n'g' 't'o'p' '[1P'[1P'[1P'o' 'k'e'y'[1P'[1P'[1P'd'i'c't'[1@a[1@ [1@k[1@e[1@y[1@ [1@p[1@a[1@i[1@r[1@ [C[C[C[C[C[C[C[C[1P'[1P'[1P'[1P'a'g'e's'
+'adding a key pair to ages'
+>>> ages ['tanvi'=]=[C1.2
+>>> ages
+{'tanvi': 1.2, 'neelu': 33, 'akash': 36, 'vansh': 10}
+>>> 'modigy operation[1P[1@'[1@g[1P[1@f[1P[1P[1P[1@i[1@f[1P[1@M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'
+'Modify operation'
+>>> ages[ákash[K[K[K[K[K'akash'] = 35
+>>> ages
+{'tanvi': 1.2, 'neelu': 33, 'akash': 35, 'vansh': 10}
+>>> del [K[K[K[K'del operation'[1P operation'[C[C[C[C[C[C[C[1P operation'[C[C[C[C[C[C[1P operation'[C[C[C[C[CR operation'[C[C[C[C[C[Ce operation'[C[C[C[C[C[C[Cm operation'[C[C[C[C[C[C[C[Co operation'[C[C[C[C[C[C[C[C[Cv operation'e operation'[C[C[C[C[C[C[C[C[C[C[C
+'Remove operation'
+>>> del ages[a[Kákash[K[K[K[K[K'akash']
+>>> ages
+{'tanvi': 1.2, 'neelu': 33, 'vansh': 10}
+>>> 'we need to be careful; [K[K when using del, for exam[K[K[K[K[K[K[K[Kwe can mistakenly delete the  dict object iot[K[Ktself, as shown below'
+'we need to be careful when using del, we can mistakenly delete the dict object itself, as shown below'
+>>> 'we need to be careful when using del, we can mistakenly delete the ddict object itself, as shown below'[A[C[C[C[Cages[K
+[K[A[C[C[C[C[C[C[C[Cdel ages['akash'][C[C[C[Cages[Kdageseageslages ages
+>>> ages
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ages' is not defined
+>>> agesdel ages[C[C[C[C'we need to be careful when using del, we can mistakenly delete the ddict object itself, as shown below'[A[C[C[C[Cages[K
+[K[A[C[C[C[C[C[C[C[Cdel ages['akash'][C[C[C[C'Remove operation'[C[C[C[Cages[K['akash'] = 35[C[C[C[C'Modify operation'[C[C[C[Cages[K ['tanvi']=1.2[C[C[C[C'adding a key pair to ages'[C[C[C[C[Cérror because that key does nto exist'[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pages['vanshsdjfh' ][5P[C[C[C[C[C[C[C'reading operation'[C[C[C[C[CIf you notice closely in above example, the ordering of dict ages haas changed, this is how it is py 2.7, version 3 onwards the ordering of kkey pair persists'[A[A[C[C[C[Cages[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C = { 'akash': 36 , 'neelu': 33 , 'vansh': 10 }
+>>> q[Kages[K[K[K[Kúsing [K[K[K[K[K[K'using pop() method instead of del keyword for removing a keypair fr om dict object'
+'using pop() method instead of del keyword for removing a keypair from dict object'
+>>> ages.pop()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: pop expected at least 1 arguments, got 0
+>>> 'unlike listsplistsolistsplists(lists)lists listsmlistseliststlistshlistsolistsdlists listsflistsrlistsolistsmlists lists[C[C[C[C[C, this method[K[Kod requires an indec a.k.a  our[K[K[K The key name'
+'unlike pop() method from lists, this method requires an indec a.k.a  The key name'
+>>> 'unlike pop() method from lists, this method requires an indec a.k.a   The key name'[A[C[C[C[Cages.pop()[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[Cá)k)a)s)h)[1P)[1P)[1P)[1P)[1P)á)k)a)s)h)[1P)[1P)[1P)[1P)[1P)')a)k)a)s)h)')
+36
+>>> ages
+{'neelu': 33, 'vansh': 10}
+>>> ages[a[K'akash'] = 50
+>>> ages
+{'neelu': 33, 'akash': 50, 'vansh': 10}
+>>> 'Liatig [K[K[K[K[Ksting out keys' 'i'n' 'a' 'd'i'c't' 'o'b'j'e'c't'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[C
+'Listing out keys in a dict'
+>>> ages.keys
+<built-in method keys of dict object at 0x7fcd101155c8>
+>>> ages.keys()
+['neelu', 'akash', 'vansh']
+>>> a[K'Listing out values from [K[K[K[K[Kin dict'
+'Listing out values in dict'
+>>> ages.values()
+[33, 50, 10]
+>>> list(ages.je[K[Kkeys)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'builtin_function_or_method' object is not iterable
+>>> list(ages.keys)()[C)
+['neelu', 'akash', 'vansh']
+>>> ages.keys()
+['neelu', 'akash', 'vansh']
+>>> 'Using dictionary function to map key values'
+'Using dictionary function to map key values'
+>>> weights = dict(  [K[K kevin[K[K[K[K[K[Ka[Kakash=81,neelu=59,vansh=31,tanvi=8).)5)[C
+>>> weights
+{'tanvi': 8.5, 'neelu': 59, 'akash': 81, 'vansh': 31}
+>>> 'as we can see this is a much better ty[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ks abetter way to create object[K[K[K[K[K[Kdict object with values '
+'as we can see this is abetter way to create dict object with values'
+>>> Úsing list of tuples to create a  dict object;'[C[1P[1@'[1@U[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P'
+'Using list of tuples to create a  dict object'
+>>> colort[K[Krs = dict()[)])(]))]),])(]))]),])(]))])'),(),()])'),(),()])k'),(),()])e'),(),()])v'),(),()])i'),(),()])n'),(),()])g'),(),()]),'),(),()])[1P'),(),()])[C,),(),()])'),(),()])'),(),()])[C[C[C[C[C'Using list of tuples to create a  dict object'[C[C[C[C[11Pcolors = dict([('keving',''),(),()])[C'),()])'),()]),),()]),),()]),),()])[1P),()])[1P),()])'),()])'),()])[C[C[C')])')]),)])')])')])b'),('',''),('','')])l'),('',''),('','')])u'),('',''),('','')])e'),('',''),('','')])[C[C[C[C[Cm',''),('','')])a',''),('','')])r',''),('','')])r',''),('','')])y',''),('','')])[C[C[Cv'),('','')])i'),('','')])o'),('','')])l'),('','')])e'),('','')])t'),('','')])[C[C[C[C[Cr','')])a','')])m','')])[C[C[Cr')])e')])d')])
+>>> colors
+{'keving': 'blue', 'marry': 'violet', 'ram': 'red'}
+>>> 
+]0;cloud_user@dubeyakash1c:~/development/python[cloud_user@dubeyakash1c python]$ exit
+
+Script done on Thu 15 Aug 2019 01:33:04 PM UTC

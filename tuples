@@ -1,0 +1,58 @@
+Script started on Thu 15 Aug 2019 12:52:46 PM UTC
+]0;cloud_user@dubeyakash1c:~/development/python[?1034h[cloud_user@dubeyakash1c python]$ clear
+[3;J[H[2J]0;cloud_user@dubeyakash1c:~/development/python[cloud_user@dubeyakash1c python]$ clearscript lists[8Pexitpython
+Python 2.7.5 (default, Jun 20 2019, 20:27:34) 
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-36)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+[?1034h>>> 'note[K[K[K[KTuple, unlike lists are immutable, is that they wont extent[Kd or shri nk beyond declatr[K[Kration'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C they wont extend or shrink[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C they wont extend or shrink [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C they wont extend or shrink b[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C they wont extend or shrink be[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cthey wont extend or shrink bey[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C they wont extend or shrink beyo[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C they wont extend or shrink beyon[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm they wont extend or shrink beyo[1@n[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce they wont extend or shrink bey[1@o[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca they wont extend or shrink be[1@y[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn they wont extend or shrink b[1@e[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs they wont extend or shrink [1@b[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+'Tuple, unlike lists are immutable, means they wont extend or shrink beyond declaration'
+>>> point = (2.0, 3,0)
+>>> point
+(2.0, 3, 0)
+>>> point.appen(4)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'appen'
+>>> point.appen(4)d(4)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'append'
+>>> y[Ktype(point)
+<type 'tuple'>
+>>> 'it is possible to add/ concate[1@ [C[C[C[C[C[C[C[C[Cnate a tuple because when we do that , we are actualy deriving a new object altogether',' 'f'o'r' 'e'x'a'm'p'l'e' ',' 's'e'e' 'e'[1P'b'e' [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl''o'w' '
+'it is possible to add / concatenate a tuple because when we do that, we are actualy deriving a new object altogether, for example , see below '
+>>> point_3d = point + (5.0,)
+>>> point_3d
+(2.0, 3, 0, 5.0)
+>>> point_3d = point + (5.0,)[1P.0,)6.0,)[C[C[C[1P)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate tuple (not "float") to tuple
+>>> point_3d = point + (6.0),)
+>>> point_3d = point + (6.0,)[1P)[C[C[C[C[C[C[C[C[C[C[C[C[K
+(2.0, 3, 0, 6.0)
+>>> z,y,[K[K[K[Ka,b,c,d = point_3d[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KÁssigning value from tuple to variables'[C[C[C[C[C[1P[1@'[1@A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+'Assigning value from tuple to variables'
+>>> a,b,c,d \point_3s\d[K[K[K[K[K[K[K[K[K[K[K= pointt[K[K[K[K[K ndfn djkfnjk[K[K[K[K[K[K[K[K[K[K[K[K[Koint_3d
+>>> print(a,b)
+(2.0, 3)
+>>> print(a,b)[1P,b)c,b)[C[C[1P)d)
+(0, 6.0)
+>>> print(c,d)[C[C[C,)a),)b)
+(0, 6.0, 2.0, 3)
+>>> a
+2.0
+>>> b
+3
+>>> c
+0
+>>> d
+6.0
+>>> a+=1
+>>> a
+3.0
+>>> 
+]0;cloud_user@dubeyakash1c:~/development/python[cloud_user@dubeyakash1c python]$ exit
+
+Script done on Thu 15 Aug 2019 01:04:46 PM UTC

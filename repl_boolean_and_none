@@ -1,0 +1,40 @@
+Script started on Thu 15 Aug 2019 10:33:33 AM UTC
+]0;cloud_user@dubeyakash1c:~/development/python[?1034h[cloud_user@dubeyakash1c python]$ python
+Python 2.7.5 (default, Jun 20 2019, 20:27:34) 
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-36)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+[?1034h>>> True
+True
+>>> type(True)
+<type 'bool'>
+>>> False
+False
+>>> Falsetype(True)[1P)[1P)[1P)[1P)F)a)l)s)e)
+<type 'bool'>
+>>> type(False)[1Palse)false)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'false' is not defined
+>>> bool({})
+False
+>>> bool("")
+False
+>>> bool("")a")k")a")s")h")
+True
+>>> None
+>>> none
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'none' is not defined
+>>> None
+>>> type(none)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'none' is not defined
+>>> type(none)[1Pone)None)
+<type 'NoneType'>
+>>> 
+]0;cloud_user@dubeyakash1c:~/development/python[cloud_user@dubeyakash1c python]$ exit
+exit
+
+Script done on Thu 15 Aug 2019 10:37:14 AM UTC
