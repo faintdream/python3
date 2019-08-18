@@ -1,0 +1,401 @@
+Script started on Sun 18 Aug 2019 02:41:00 PM UTC
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ python[K[Ks[K[K[K[Kython
+Python 2.7.5 (default, Apr  9 2019, 14:30:50) 
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-36)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [H[J>>> sssssss[K[K[K[K[K[K[Kecho [K[K[K[K[K"Using sta[K[K[K[K[K[K[K[K[Kpython standard library - this is ort of core [K[K[K[K[K[K[K[K[K[K[K[K[K a core library, which contais [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K &contains contains[C[C[C[C[C[C[C[C a vast variety of library[Kies whci[K[Kich a[Khave  thousands and thousands of fuc[Knctions baked[K[K[K[K[Kpre baked[1Pbaked-baked[C[C[C[C[C. That means developers dont have to build their own fun ction[K[K[K[K[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn ction for most[K[K[K[K90% of usual use casesz[K,offcourse theyt[K would create their own functions for solving their busi ness problem, but a lot of meat needed to get the ball rolling is already defined as python standard li brary."M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C
+'python standard library - this is a core library & contains a vast variety of libraries which have thousands and thousands of functions pre-baked. That means developers dont have to build their own function for 90% of usual use cases,offcourse they would create their own functions for solving their business problem, but a lot of meat needed to get the ball rolling is already defined as python standard library.'
+>>> "let's see an example using[K[K[K[K[Kstandard library - Time "
+"let's see an example standard library - Time "
+>>> import time 
+>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> now = time.localtime()
+>>> now
+time.struct_time(tm_year=2019, tm_mon=8, tm_mday=18, tm_hour=14, tm_min=49, tm_sec=48, tm_wday=6, tm_yday=230, tm_isdst=0)
+>>> now.tm_hour
+14
+>>> now.tm_hour[K[K[K[Kyear
+2019
+>>> now.tm_year[K[K[K[Kday
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'time.struct_time' object has no attribute 'tm_day'
+>>> now.tm_day[K[K[Kwday
+6
+>>> exit()
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi timer.py
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"timer.py" [New File][2;1H[1m[34m~                                                 [3;1H~                                                 [4;1H~                                                 [5;1H~                                                 [6;1H~                                                 [7;1H~                                                 [8;1H~                                                 [9;1H~                                                 [10;1H~                                                 [11;1H~                                                 [12;1H~                                                 [13;1H~                                                 [14;1H~                                                 [15;1H~                                                 [16;1H~                                                 [17;1H~                                                 [18;1H~                                                 [19;1H~                                                 [20;1H~                                                 [21;1H~                                                 [22;1H~                                                 [23;1H~                                                 [24;1H~                                                 [25;1H~                                                 [26;1H~                                                 [27;1H~                                                 [28;1H~                                                 [29;1H~                                                 [30;1H~                                                 [31;1H~                                                 [1;1H[34h[?25h[?25l[0m[32;1H[1m-- INSERT --[0m[32;13H[K[1;1H[34h[?25h[?25l#[34h[?25h[?25l![34h[?25h[?25l/[34h[?25h[?25lu[34h[?25h[?25ls[34h[?25h[?25lr[34h[?25h[?25l/[34h[?25h[?25lb[34h[?25h[?25li[34h[?25h[?25ln[34h[?25h[?25l/[34h[?25h[?25le[34h[?25h[?25ln[34h[?25h[?25lv[34h[?25h[?25l [34h[?25h[?25lp[34h[?25h[?25ly[34h[?25h[?25lt[34h[?25h[?25lh[34h[?25h[?25lo[34h[?25h[?25ln[34h[?25h[32;1H[K[1;21H[?25l[34h[?25h[?25l[32;1H:[34h[?25hx[?25l"timer.py" [New] 1L, 22C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi timer.py[5Ppythonvi timer.py
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"timer.py" 1L, 22C[1;1H#!/usr/bin/env python
+[1m[34m~                                                 [3;1H~                                                 [4;1H~                                                 [5;1H~                                                 [6;1H~                                                 [7;1H~                                                 [8;1H~                                                 [9;1H~                                                 [10;1H~                                                 [11;1H~                                                 [12;1H~                                                 [13;1H~                                                 [14;1H~                                                 [15;1H~                                                 [16;1H~                                                 [17;1H~                                                 [18;1H~                                                 [19;1H~                                                 [20;1H~                                                 [21;1H~                                                 [22;1H~                                                 [23;1H~                                                 [24;1H~                                                 [25;1H~                                                 [26;1H~                                                 [27;1H~                                                 [28;1H~                                                 [29;1H~                                                 [30;1H~                                                 [31;1H~                                                 [1;1H[34h[?25h[20C[?25l[0m[32;1H[1m-- INSERT --[0m[32;13H[K[2;1H[K[2;1H[34h[?25h[?25l[3;1H[K[3;1H[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25lp[34h[?25h[?25lo[34h[?25h[?25lr[34h[?25h[?25lt[34h[?25h[?25l [34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l [34h[?25h[?25l[34h[?25h[?25l[3;10H[K[3;10H[34h[?25h[?25l[3;9H[K[3;9H[34h[?25h[?25l[3;8H[K[3;8H[34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l[4;1H[K[4;1H[34h[?25h[?25l[5;1H[K[5;1H[34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25la[34h[?25h[?25lr[34h[?25h[?25lt[34h[?25h[?25l_[34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25he[?25l [34h[?25h[?25l=[34h[?25h[?25l [34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l.[34h[?25h[?25ll[34h[?25h[?25lo[34h[?25h[?25lc[34h[?25h[?25la[34h[?25h[?25ll[34h[?25h[?25l_[34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l([34h[?25h[?25l)[34h[?25h[?25ltime()[5;30H[K[5;24H[34h[?25h[?25l\time()[34h[?25h[?25ltime()[5;30H[K[5;24H[34h[?25h[?25l[5;24H[K[6;1Htime()[6;7H[K[6;1H[34h[?25h[?25l[6;1H[K[7;1Htime()[7;7H[K[7;1H[34h[?25h[?25l[6;1Htime()
+[1m[34m~                                                 [6;1H[34h[?25h[0mtime()[?25l[6;6H[K[6;6H[34h[?25h[?25l[6;5H[K[6;5H[34h[?25h[?25l[6;4H[K[6;4H[34h[?25h[?25l[6;3H[K[6;3H[34h[?25h[?25l[6;2H[K[6;2H[34h[?25h[?25l[6;1H[K[6;1H[34h[?25h[?25l[1m[34m~                                                 [5;24H[34h[?25h[?25l[0mt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l([34h[?25h[?25l)[34h[?25h[?25l[6;1H[K[6;1H[34h[?25h[?25l[7;1H[K[7;1H[34h[?25h[?25lp[34h[?25h[?25lr[34h[?25h[?25li[34h[?25h[?25ln[34h[?25h[?25lt[34h[?25h[?25l([34h[?25h[?25l"[34h[?25h[?25lT[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l [34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25la[34h[?25h[?25lr[34h[?25h[?25lt[34h[?25h[?25le[34h[?25h[?25ld[34h[?25h[?25l [34h[?25h[?25la[34h[?25h[?25lt[34h[?25h[?25l"[34h[?25h[?25l [34h[?25h[?25l+[34h[?25h[?25l [34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l.[34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25lr[34h[?25h[?25lf[34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l([34h[?25h[?25l)[34h[?25h[?25l,)[34h[?25h[?25ls)[34h[?25h[?25lt)[34h[?25h[?25la)[34h[?25h[?25lr)[34h[?25h[?25lt)[34h[?25h[?25l_)[34h[?25h[?25lt)[34h[?25h[?25li)[7;50H[34h[?25h[?25lmm[8;1H)[8;2H[K[8;1H[34h[?25h[?25le)[34h[?25he)[?25l)[34h[?25h[6;1H[8;4H[7;50H([?25l',start_tii[8;1Hme))[7;42H[34h[?25h[?25l',start_tt[8;1Hime))[7;43H[34h[?25h[?25l%',start__[8;1Htime))[7;43H[34h[?25h[?25lx',startt[8;1H_time))[7;44H[34h[?25h[6;1H[5;30H
+[7;44H[32;1H[K[7;43H[?25l[34h[?25h[?25l[32;1H:[34h[?25hx[?25l"timer.py" 7L, 125C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ chmod 755 timer.py 
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./timer.py 
+Time started at08/18/19
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./timer.py [8@chmod 755 [C[C[C[C[C[C[C[C[C[8Pvi timer.py
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"timer.py" 7L, 125C[1;1H#!/usr/bin/env python
+
+import time
+
+start_time = time.localtime()
+
+print("Time started at" + time.strftime('%x',startt[8;1H_time))
+[1m[34m~                                                 [10;1H~                                                 [11;1H~                                                 [12;1H~                                                 [13;1H~                                                 [14;1H~                                                 [15;1H~                                                 [16;1H~                                                 [17;1H~                                                 [18;1H~                                                 [19;1H~                                                 [20;1H~                                                 [21;1H~                                                 [22;1H~                                                 [23;1H~                                                 [24;1H~                                                 [25;1H~                                                 [26;1H~                                                 [27;1H~                                                 [28;1H~                                                 [29;1H~                                                 [30;1H~                                                 [31;1H~                                                 [1;1H[34h[?25h
+
+
+
+
+
+[0mprint("Time started at"[?25l[32;1H[1m-- INSERT --[0m[32;13H[K[7;23H[34h[?25h[?25l " + time.strftime('%x',starr[8;1Ht_time))[7;24H[34h[?25h" + time.strftime('%x[?25l',startt[8;1H_time)[8;8H[K[7;44H[34h[?25h[?25lX',starr[8;1Ht_time))[7;45H[34h[?25h[6;1H[7;45H[8;9H[?25l[9;1H[K[9;1H[34h[?25h[?25l[10;1H[K[10;1H[34h[?25h[?25li[34h[?25h[?25ln[34h[?25h[?25lp[34h[?25h[?25li[34h[?25h[?25lt[34h[?25h[?25l[10;5H[K[10;5H[34h[?25h[?25l[10;4H[K[10;4H[34h[?25h[?25lu[34h[?25h[?25lt[34h[?25h[?25l([34h[?25h[?25l"[34h[?25h[?25lp[34h[?25h[?25lr[34h[?25h[?25le[34h[?25h[?25ls[34h[?25h[?25ls[34h[?25h[?25l [34h[?25h[?25l'[34h[?25h[?25le[34h[?25h[?25lb[34h[?25h[?25lt[34h[?25h[?25le[34h[?25h[?25lr[34h[?25h[?25l[10;19H[K[10;19H[34h[?25h[?25l[10;18H[K[10;18H[34h[?25h[?25l[10;17H[K[10;17H[34h[?25h[?25l[10;16H[K[10;16H[34h[?25h[?25ln[34h[?25h[?25lt[34h[?25h[?25le[34h[?25h[?25lr[34h[?25h[?25l'[34h[?25h[?25l [34h[?25h[?25lt[34h[?25h[?25lo[34h[?25h[?25l [34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25lo[34h[?25h[?25lp[34h[?25h[?25l [34h[?25h[?25lt[34h[?25h[?25lh[34h[?25h[?25le[34h[?25h[?25l [34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25lr[34h[?25h[?25l"[34h[?25h[?25l)[34h[?25h[?25l[11;1H[K[11;1H[34h[?25h[?25l[12;1H[K[12;1H[34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25lo[34h[?25h[?25lp[34h[?25h[?25l_[34h[?25h[?25lt[34h[?25h[?25lm[34h[?25h[?25li[34h[?25h[?25le[34h[?25h[23m[24m[0m[H[J[?25l[1;1H#!/usr/bin/env python
+
+import time
+
+start_time = time.localtime()
+
+print("Time started at " + time.strftime('%X',start_time))
+
+input("press 'enter' to stop the timer")
+
+stop_tmie
+[1m[34m~                                                                                                      [13;1H~                                                                                                      [14;1H~                                                                                                      [15;1H~                                                                                                      [16;1H~                                                                                                      [17;1H~                                                                                                      [18;1H~                                                                                                      [19;1H~                                                                                                      [20;1H~                                                                                                      [21;1H~                                                                                                      [22;1H~                                                                                                      [23;1H~                                                                                                      [24;1H~                                                                                                      [25;1H~                                                                                                      [26;1H~                                                                                                      [27;1H~                                                                                                      [28;1H~                                                                                                      [29;1H~                                                                                                      [30;1H~                                                                                                      [31;1H~                                                                                                      [0m[32;1H[1m-- INSERT --[11;10H[34h[?25h[?25l[0m[11;9H[K[11;9H[34h[?25h[?25l[11;8H[K[11;8H[34h[?25h[?25l[11;7H[K[11;7H[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l=[34h[?25h[?25l [34h[?25h[?25l[34h[?25h[?25l [34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l.[34h[?25h[?25ll[34h[?25h[?25lo[34h[?25h[?25lc[34h[?25h[?25la[34h[?25h[?25ll[34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25lr[34h[?25h[?25l[11;26H[K[11;26H[34h[?25h[?25l([34h[?25h[?25l)[34h[?25h[?25l[12;1H[K[12;1H[34h[?25h[?25l[13;1H[K[13;1H[34h[?25h[?25ld[34h[?25h[12;1H[11;2H[10;1H[9;2H[8;1H[?25l[8;31r[31;1H
+[1;32r[31;1H[1m[34m~                                                                                                      [8;1H[34h[?25h
+[?25l[9;31r[0m[31;1H
+[1;32r[31;1H[1m[34m~                                                                                                      [9;1H[34h[?25h
+[?25l[0md
+[1m[34m~                                                                                                      [10;1H[34h[?25h[0md[?25li[34h[?25h[?25lf[34h[?25h[?25lf[34h[?25h[?25le[34h[?25h[?25lr[34h[?25h[?25le[34h[?25h[?25ln[34h[?25h[?25lc[34h[?25h[?25le[34h[?25h[?25l[10;10H[K[10;10H[34h[?25h[?25l[10;9H[K[10;9H[34h[?25h[?25l[10;8H[K[10;8H[34h[?25h[?25l[10;7H[K[10;7H[34h[?25h[?25l[10;6H[K[10;6H[34h[?25h[?25l[10;5H[K[10;5H[34h[?25h[?25l[10;4H[K[10;4H[34h[?25h[?25l[10;3H[K[10;3H[34h[?25h[?25l[10;2H[K[10;2H[34h[?25h[?25l[10;1H[K[10;1H[34h[?25h[?25le[34h[?25h[?25ll[34h[?25h[?25la[34h[?25h[?25lp[34h[?25h[?25ls[34h[?25h[?25le[34h[?25h[?25ld[34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25l[10;10H[K[10;10H[34h[?25h[?25l[10;9H[K[10;9H[34h[?25h[?25l[10;8H[K[10;8H[34h[?25h[?25l_[34h[?25h[?25ls[34h[?25h[?25le[34h[?25h[?25lc[34h[?25h[?25lo[34h[?25h[?25ln[34h[?25h[?25ld[34h[?25h[?25ls[34h[?25h[?25l=[34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l.[34h[?25h[?25lm[34h[?25h[?25lk[34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l([34h[?25h[?25l)[34h[?25h[?25ls)[34h[?25h[?25lt)[34h[?25h[?25lo)[34h[?25h[?25lp)[34h[?25h[?25l_)[34h[?25h[?25lt)[34h[?25h[?25li)[34h[?25h[?25lm)[34h[?25h[?25le)[34h[?25h)[?25l [34h[?25h[?25l-[34h[?25h[?25l [34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l.[34h[?25h[?25lm[34h[?25h[?25lk[34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l([34h[?25h[?25l)[34h[?25h[?25ls)[34h[?25h[?25lt)[34h[?25h[?25la)[34h[?25h[?25lr)[34h[?25h[?25lt)[34h[?25h[?25l_)[34h[?25h[?25lt)[34h[?25h[?25li)[34h[?25h[?25lm)[34h[?25h[?25le)[34h[?25h)[?25l[11;1H[K[11;1H[34h[?25h[?25lp[34h[?25h[?25lr[34h[?25h[?25li[34h[?25h[?25ln[34h[?25h[?25lt[34h[?25h[?25l([34h[?25h[?25l"[34h[?25h[?25lS[34h[?25h[?25lt[34h[?25h[?25la[34h[?25h[?25lr[34h[?25h[?25lt[34h[?25h[?25l [34h[?25h[?25lT[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l [34h[?25h[?25l:[34h[?25h[?25l [34h[?25h[?25l"[34h[?25h[?25l [34h[?25h[?25l+[34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25la[34h[?25h[?25lr[34h[?25h[?25lt[34h[?25h[?25l start[34h[?25hstart[?25l_[34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l)[34h[?25h[?25l[12;1H[K[12;1H[34h[?25h[?25lp[34h[?25h[?25lr[34h[?25h[?25li[34h[?25h[?25ln[34h[?25h[?25lt[34h[?25h[?25l([34h[?25h[?25l"[34h[?25h[?25lS[34h[?25h[?25lt[34h[?25h[?25lo[34h[?25h[?25lp[34h[?25h[?25l [34h[?25h[?25lT[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l:[34h[?25h[?25l [34h[?25h[?25l :[34h[?25h: [?25l"[34h[?25h[?25l [34h[?25h[?25l+[34h[?25h[?25l [34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25lo[34h[?25h[?25lp[34h[?25h[?25l_[34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l)[34h[?25h[?25l Time : " + stop_time)[12;14H[34h[?25h[21C[?25l[13;1H[K[13;1H[34h[?25h[?25lp[34h[?25h[?25lr[34h[?25h[?25li[34h[?25h[?25ln[34h[?25h[?25lt[34h[?25h[?25l([34h[?25h[?25l [34h[?25h[?25l[34h[?25h[?25l"[34h[?25h[?25l"[34h[?25h[?25l)[34h[?25h[?25lE")[34h[?25h[?25ll")[34h[?25h[?25la")[34h[?25h[?25lp")[34h[?25h[?25ls")[34h[?25h[?25le")[34h[?25h[?25ld")[34h[?25h[?25l_")[34h[?25h[?25l")[13;17H[K[13;15H[34h[?25h[?25l ")[34h[?25h[?25lT")[34h[?25h[?25li")[34h[?25h[?25lm")[34h[?25h[?25le")[34h[?25h[?25l:")[34h[?25h[?25l ")[34h[?25h[12;22H[?25l Time : " + stop_time)[12;15H[34h[?25h[?25l Time : " + stop_time)[12;16H[34h[?25h[?25lTime : " + stop_time)[12;36H[K[12;15H[34h[?25h[13;15H[12;15H[?25l Time : " + stop_time)[12;16H[34h[?25h[13;16HTime[?25l : ")[34h[?25h[12;21H[11;21H[?25l Time : " + start_time)[11;15H[34h[?25h[?25l Time : " + start_time)[11;16H[34h[?25h[12;16H[13;16H[9C[?25l )[34h[?25h[?25l+)[34h[?25h[?25l )[34h[?25h[?25le)[34h[?25h[?25ll)[34h[?25h[?25la)[34h[?25h[?25lp)[34h[?25h[?25ls)[34h[?25h[?25le)[34h[?25h[?25ld)[34h[?25h[?25l_)[34h[?25h[?25lt)[34h[?25h[?25li)[34h[?25h[?25lm)[34h[?25h[?25le)[34h[?25h[12;37H[11;38H[10;39H[9;28H[32;1H[K[9;27H[?25l[34h[?25h[?25l[32;1H:[34h[?25hw[?25l"timer.py" 13L, 375C written[9;27H[34h[?25h[8;27H[7;27H[6;1H[5;27H[4;1H[3;11H[2;1H[?25l[2;31r[31;1H
+[1;32r[31;1H[1m[34m~                                                                                                      [0m[32;1H[K[2;1H[34h[?25h[?25l[32;1H[1m-- INSERT --[2;1H[34h[?25h[?25l[3;31r[0m[3;1H[L[1;32r[2;1H[K[3;1Himport time[34h[?25h
+[?25l[4;31r[31;1H
+[1;32r[31;1H[1m[34m~                                                                                                      [4;1H[34h[?25h[?25l[5;31r[0m[5;1H[L[1;32r[4;1H[K[5;1Hstart_time = time.localtime()[34h[?25h
+[?25l[6;31r[31;1H
+[1;32r[31;1H[1m[34m~                                                                                                      [6;1H[34h[?25h[5;1H[4;1H[3;1H[2;1H[?25l[0m#[34h[?25h[?25lI[34h[?25h[?25ln[34h[?25h[?25l [34h[?25h[?25lt[34h[?25h[?25lh[34h[?25h[?25li[34h[?25h[?25ls[34h[?25h[?25l [34h[?25h[?25lp[34h[?25h[?25lr[34h[?25h[?25lo[34h[?25h[?25lg[34h[?25h[?25l[2;13H[K[2;13H[34h[?25h[?25l[2;12H[K[2;12H[34h[?25h[?25l[2;11H[K[2;11H[34h[?25h[?25l[2;10H[K[2;10H[34h[?25h[?25l[34h[?25h[?25l[2;8H[K[2;8H[34h[?25h[?25l[2;7H[K[2;7H[34h[?25h[?25l[2;6H[K[2;6H[34h[?25h[?25l[2;5H[K[2;5H[34h[?25h[?25l[34h[?25h[?25l[2;3H[K[2;3H[34h[?25h[?25l[2;2H[K[2;2H[34h[?25h[?25lT[34h[?25h[?25lh[34h[?25h[?25li[34h[?25h[?25ls[34h[?25h[?25li[34h[?25h[?25ls[34h[?25h[?25l [34h[?25h[?25la[34h[?25h[?25l [34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25lr[34h[?25h[?25l [34h[?25h[?25lp[34h[?25h[?25lr[34h[?25h[?25lo[34h[?25h[?25lg[34h[?25h[?25lr[34h[?25h[?25la[34h[?25h[?25lm[34h[?25h[?25l [34h[?25h[?25lw[34h[?25h[?25le[34h[?25h[?25l [34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25la[34h[?25h[?25lr[34h[?25h[?25lt[34h[?25h[?25l[2;32H[K[2;32H[34h[?25h[?25l[2;31H[K[2;31H[34h[?25h[?25l[2;30H[K[2;30H[34h[?25h[?25l[2;29H[K[2;29H[34h[?25h[?25l[2;28H[K[2;28H[34h[?25h[?25l[34h[?25h[?25l[2;26H[K[2;26H[34h[?25h[?25l[2;25H[K[2;25H[34h[?25h[?25li[34h[?25h[?25ln[34h[?25h[?25l [34h[?25h[?25lw[34h[?25h[?25lh[34h[?25h[?25li[34h[?25h[?25lc[34h[?25h[?25lh[34h[?25h[?25l [34h[?25h[?25lw[34h[?25h[?25le[34h[?25h[?25l [34h[?25h[?25lc[34h[?25h[?25la[34h[?25h[?25ll[34h[?25h[?25l[2;39H[K[2;39H[34h[?25h[?25l[2;38H[K[2;38H[34h[?25h[?25l[2;37H[K[2;37H[34h[?25h[?25l[34h[?25h[?25l[2;35H[K[2;35H[34h[?25h[?25l[2;34H[K[2;34H[34h[?25h[?25l[34h[?25h[?25l[2;32H[K[2;32H[34h[?25h[?25lh[34h[?25h[?25l [34h[?25h[?25lw[34h[?25h[?25le[34h[?25h[?25l [34h[?25h[?25lc[34h[?25h[?25la[34h[?25h[?25ll[34h[?25h[?25lc[34h[?25h[?25ll[34h[?25h[?25lu[34h[?25h[?25la[34h[?25h[?25lt[34h[?25h[?25le[34h[?25h[?25l [34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l [34h[?25h[?25ld[34h[?25h[?25li[34h[?25h[?25lf[34h[?25h[?25lf[34h[?25h[?25le[34h[?25h[?25lr[34h[?25h[?25le[34h[?25h[?25ln[34h[?25h[?25lc[34h[?25h[?25le[34h[?25h[?25l [34h[?25h[?25lb[34h[?25h[?25le[34h[?25h[?25lt[34h[?25h[?25lw[34h[?25h[?25le[34h[?25h[?25le[34h[?25h[?25ln[34h[?25h[?25l [34h[?25h[?25lr[34h[?25h[?25l[2;71H[K[2;71H[34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25la[34h[?25h[?25lr[34h[?25h[?25lt[34h[?25h[?25l [34h[?25h[?25la[34h[?25h[?25ln[34h[?25h[?25ld[34h[?25h[?25l [34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25lo[34h[?25h[?25lp[34h[?25h[?25l [34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l [34h[?25h[?25li[34h[?25h[?25ln[34h[?25h[?25l [34h[?25h[?25ls[34h[?25h[?25le[34h[?25h[?25lc[34h[?25h[?25lo[34h[?25h[?25ln[34h[?25h[?25ld[34h[?25h[?25ls[34h[?25h[?25l [34h[?25h[1;22H[2;102H#T[?25l Thisis a timer program in which we calcluate time difference between start and stop time in seconds# [34h[?25hThis[?25l is a timer program in which we calcluate time difference between start and stop time in seconds[2;8H[34h[?25h[3;8H
+[5;8H[6;8H[7;8H[8;8H[32;1H[K[?25l[8;7H[34h[?25h[?25l[32;1H:[34h[?25hx[?25l"timer.py" 12L, 477C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./timer.py 
+Time started at 15:01:52
+press 'enter' to stop the timer
+Traceback (most recent call last):
+  File "./timer.py", line 7, in <module>
+    input("press 'enter' to stop the timer")
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./timer.py vi timer.py
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"timer.py" 12L, 477C[1;1H#!/usr/bin/env python
+# This is a timer program in which we calcluate time difference between start and stop time in seconds
+import time
+
+start_time = time.localtime()
+print("Time started at " + time.strftime('%X',start_time))
+input("press 'enter' to stop the timer")
+stop_time= time.localtime()
+elapsed_seconds=time.mktime(stop_time) - time.mktime(start_time)
+print("Start   Time : " + start_time)
+print("Stop    Time : " + stop_time)
+print("Elapsed Time : " + elapsed_time)
+[1m[34m~                                                                                                      [14;1H~                                                                                                      [15;1H~                                                                                                      [16;1H~                                                                                                      [17;1H~                                                                                                      [18;1H~                                                                                                      [19;1H~                                                                                                      [20;1H~                                                                                                      [21;1H~                                                                                                      [22;1H~                                                                                                      [23;1H~                                                                                                      [24;1H~                                                                                                      [25;1H~                                                                                                      [26;1H~                                                                                                      [27;1H~                                                                                                      [28;1H~                                                                                                      [29;1H~                                                                                                      [30;1H~                                                                                                      [31;1H~                                                                                                      [1;1H[34h[?25h
+
+
+
+
+
+[?25l[0m[32;1H[1m-- INSERT --[0m[32;13H[K[7;1H[34h[?25h[?25l_input("press 'enter' to stop the timer")_[34h[?25h[?25linput("press 'enter' to stop the timer")[7;41H[K[7;1H[34h[?25h[?25lrinput("press 'enter' to stop the timer")r[34h[?25h[?25lainput("press 'enter' to stop the timer")ra[34h[?25h[?25lwinput("press 'enter' to stop the timer")raw[34h[?25h[?25l_input("press 'enter' to stop the timer")raw_[34h[?25h[32;1H[K[7;4H[?25l[34h[?25h[?25l[32;1H:[34h[?25hx[?25l"timer.py" 12L, 481C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi timer.py./timer.py 
+Time started at 15:02:15
+press 'enter' to stop the timer
+Traceback (most recent call last):
+  File "./timer.py", line 10, in <module>
+    print("Start   Time : " + start_time)
+TypeError: cannot concatenate 'str' and 'time.struct_time' objects
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./timer.py vi timer.py
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"timer.py" 12L, 481C[1;1H#!/usr/bin/env python
+# This is a timer program in which we calcluate time difference between start and stop time in seconds
+import time
+
+start_time = time.localtime()
+print("Time started at " + time.strftime('%X',start_time))
+raw_input("press 'enter' to stop the timer")
+stop_time= time.localtime()
+elapsed_seconds=time.mktime(stop_time) - time.mktime(start_time)
+print("Start   Time : " + start_time)
+print("Stop    Time : " + stop_time)
+print("Elapsed Time : " + elapsed_time)
+[1m[34m~                                                                                                      [14;1H~                                                                                                      [15;1H~                                                                                                      [16;1H~                                                                                                      [17;1H~                                                                                                      [18;1H~                                                                                                      [19;1H~                                                                                                      [20;1H~                                                                                                      [21;1H~                                                                                                      [22;1H~                                                                                                      [23;1H~                                                                                                      [24;1H~                                                                                                      [25;1H~                                                                                                      [26;1H~                                                                                                      [27;1H~                                                                                                      [28;1H~                                                                                                      [29;1H~                                                                                                      [30;1H~                                                                                                      [31;1H~                                                                                                      [1;1H[34h[?25h
+
+
+
+
+
+
+
+
+[36C[?25l[0m[32;1H[1m-- INSERT --[0m[32;13H[K[10;27H[34h[?25h[?25lSstart_time)[10;28H[34h[?25h[?25ltstart_time)[10;29H[34h[?25h[?25lrstart_time)[10;30H[34h[?25h[?25listart_time)[10;31H[34h[?25h[?25lustart_time)[10;32H[34h[?25h[?25lnstart_time)[10;33H[34h[?25h[?25lgstart_time)[10;34H[34h[?25h[?25lstart_time)[10;44H[K[10;33H[34h[?25h[?25lstart_time)[10;43H[K[10;32H[34h[?25h[?25lstart_time)[10;42H[K[10;31H[34h[?25h[?25lstart_time)[10;41H[K[10;30H[34h[?25h[?25lstart_time)[10;40H[K[10;29H[34h[?25h[?25lstart_time)[10;39H[K[10;28H[34h[?25h[?25lstart_time)[10;38H[K[10;27H[34h[?25h[?25lstart_time)[10;37H[K[10;26H[34h[?25h[?25l start_time)[10;27H[34h[?25h[?25lsstart_time)[10;28H[34h[?25h[?25ltstart_time)[10;29H[34h[?25h[?25lrstart_time)[10;30H[34h[?25h[?25l(start_time)[10;31H[34h[?25h[11C[?25l))[34h[?25h[32;1H[K[?25l[10;41H[34h[?25h[?25l[32;1H:[34h[?25hx[?25l"timer.py" 12L, 486C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi timer.py./timer.py 
+Time started at 15:02:43
+press 'enter' to stop the timer
+Start   Time : time.struct_time(tm_year=2019, tm_mon=8, tm_mday=18, tm_hour=15, tm_min=2, tm_sec=43, tm_wday=6, tm_yday=230, tm_isdst=0)
+Traceback (most recent call last):
+  File "./timer.py", line 11, in <module>
+    print("Stop    Time : " + stop_time)
+TypeError: cannot concatenate 'str' and 'time.struct_time' objects
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./timer.py vi timer.py
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"timer.py" 12L, 486C[1;1H#!/usr/bin/env python
+# This is a timer program in which we calcluate time difference between start and stop time in seconds
+import time
+
+start_time = time.localtime()
+print("Time started at " + time.strftime('%X',start_time))
+raw_input("press 'enter' to stop the timer")
+stop_time= time.localtime()
+elapsed_seconds=time.mktime(stop_time) - time.mktime(start_time)
+print("Start   Time : " + str(start_time))
+print("Stop    Time : " + stop_time)
+print("Elapsed Time : " + elapsed_time)
+[1m[34m~                                                                                                      [14;1H~                                                                                                      [15;1H~                                                                                                      [16;1H~                                                                                                      [17;1H~                                                                                                      [18;1H~                                                                                                      [19;1H~                                                                                                      [20;1H~                                                                                                      [21;1H~                                                                                                      [22;1H~                                                                                                      [23;1H~                                                                                                      [24;1H~                                                                                                      [25;1H~                                                                                                      [26;1H~                                                                                                      [27;1H~                                                                                                      [28;1H~                                                                                                      [29;1H~                                                                                                      [30;1H~                                                                                                      [31;1H~                                                                                                      [1;1H[34h[?25h
+
+
+
+
+
+
+
+
+
+[35C[?25l[0m[32;1H[K[32;1H:[34h[?25hse nu[?25l[1;1H[33m      1 [0m#!/usr/bin/env python
+[33m      2 [0m# This is a timer program in which we calcluate time difference between start and stop time in  [3;1H[33m        [0mseconds
+[33m      3 [0mimport time
+[33m      4 [0m[5;9H[K[6;1H[33m      5 [0mstart_time = time.localtime()[6;38H[K[7;1H[33m      6 [0mprint("Time started at " + time.strftime('%X',start_time))
+[33m      7 [0mraw_input("press 'enter' to stop the timer")
+[33m      8 [0mstop_time= time.localtime()[9;36H[K[10;1H[33m      9 [0melapsed_seconds=time.mktime(stop_time) - time.mktime(start_time)
+[33m     10 [0mprint("Start   Time : " + str(start_time))
+[33m     11 [0mprint("Stop    Time : " + stop_time)
+[33m     12 [0mprint("Elapsed Time : " + elapsed_time)[13;48H[K[12;36H[34h[?25h[?25l[32;1H[1m-- INSERT --[12;35H[34h[?25h[?25l[0msstop_time)[12;36H[34h[?25h[?25ltstop_time)[12;37H[34h[?25h[?25lrstop_time)[12;38H[34h[?25h[?25l(stop_time)[12;39H[34h[?25h[10C[?25l))[34h[?25h[13;48H[32;1H[K[?25l[13;44H[34h[?25h[?25l[32;1H:[34h[?25hx[?25l"timer.py" 12L, 491C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi timer.py./timer.py 
+Time started at 15:03:11
+press 'enter' to stop the timer
+Start   Time : time.struct_time(tm_year=2019, tm_mon=8, tm_mday=18, tm_hour=15, tm_min=3, tm_sec=11, tm_wday=6, tm_yday=230, tm_isdst=0)
+Stop    Time : time.struct_time(tm_year=2019, tm_mon=8, tm_mday=18, tm_hour=15, tm_min=3, tm_sec=12, tm_wday=6, tm_yday=230, tm_isdst=0)
+Traceback (most recent call last):
+  File "./timer.py", line 12, in <module>
+    print("Elapsed Time : " + elapsed_time)
+NameError: name 'elapsed_time' is not defined
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./timer.py vi timer.py
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"timer.py" 12L, 491C[1;1H#!/usr/bin/env python
+# This is a timer program in which we calcluate time difference between start and stop time in seconds
+import time
+
+start_time = time.localtime()
+print("Time started at " + time.strftime('%X',start_time))
+raw_input("press 'enter' to stop the timer")
+stop_time= time.localtime()
+elapsed_seconds=time.mktime(stop_time) - time.mktime(start_time)
+print("Start   Time : " + str(start_time))
+print("Stop    Time : " + str(stop_time))
+print("Elapsed Time : " + elapsed_time)
+[1m[34m~                                                                                                      [14;1H~                                                                                                      [15;1H~                                                                                                      [16;1H~                                                                                                      [17;1H~                                                                                                      [18;1H~                                                                                                      [19;1H~                                                                                                      [20;1H~                                                                                                      [21;1H~                                                                                                      [22;1H~                                                                                                      [23;1H~                                                                                                      [24;1H~                                                                                                      [25;1H~                                                                                                      [26;1H~                                                                                                      [27;1H~                                                                                                      [28;1H~                                                                                                      [29;1H~                                                                                                      [30;1H~                                                                                                      [31;1H~                                                                                                      [1;1H[34h[?25h[12;1H[38C[?25l[0m[32;1H[1m-- INSERT --[0m[32;13H[K[12;27H[34h[?25h[?25lselapsed_time)[12;28H[34h[?25h[?25ltelapsed_time)[12;29H[34h[?25h[?25lrelapsed_time)[12;30H[34h[?25h[?25l(elapsed_time)[12;31H[34h[?25h[13C[?25l))[34h[?25h[32;1H[K[?25l[12;43H[34h[?25h[?25l[32;1H:[34h[?25hx[?25l"timer.py" 12L, 496C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi timer.py./timer.py 
+Time started at 15:03:25
+press 'enter' to stop the timer
+Start   Time : time.struct_time(tm_year=2019, tm_mon=8, tm_mday=18, tm_hour=15, tm_min=3, tm_sec=25, tm_wday=6, tm_yday=230, tm_isdst=0)
+Stop    Time : time.struct_time(tm_year=2019, tm_mon=8, tm_mday=18, tm_hour=15, tm_min=3, tm_sec=27, tm_wday=6, tm_yday=230, tm_isdst=0)
+Traceback (most recent call last):
+  File "./timer.py", line 12, in <module>
+    print("Elapsed Time : " + str(elapsed_time))
+NameError: name 'elapsed_time' is not defined
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./timer.py vi timer.py
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"timer.py" 12L, 496C[1;1H#!/usr/bin/env python
+# This is a timer program in which we calcluate time difference between start and stop time in seconds
+import time
+
+start_time = time.localtime()
+print("Time started at " + time.strftime('%X',start_time))
+raw_input("press 'enter' to stop the timer")
+stop_time= time.localtime()
+elapsed_seconds=time.mktime(stop_time) - time.mktime(start_time)
+print("Start   Time : " + str(start_time))
+print("Stop    Time : " + str(stop_time))
+print("Elapsed Time : " + str(elapsed_time))
+[1m[34m~                                                                                                      [14;1H~                                                                                                      [15;1H~                                                                                                      [16;1H~                                                                                                      [17;1H~                                                                                                      [18;1H~                                                                                                      [19;1H~                                                                                                      [20;1H~                                                                                                      [21;1H~                                                                                                      [22;1H~                                                                                                      [23;1H~                                                                                                      [24;1H~                                                                                                      [25;1H~                                                                                                      [26;1H~                                                                                                      [27;1H~                                                                                                      [28;1H~                                                                                                      [29;1H~                                                                                                      [30;1H~                                                                                                      [31;1H~                                                                                                      [1;1H[34h[?25h
+
+
+
+
+
+
+
+
+
+
+[11;1H[10;1H[9;1H[0melapsed[10;8H[11;8H[12;8H[36C[?25l[32;1H[1m-- INSERT --[0m[32;13H[K[12;43H[34h[?25h[?25l)[12;44H[K[12;42H[34h[?25h[?25l)[12;43H[K[12;41H[34h[?25h[?25l)[12;42H[K[12;40H[34h[?25h[?25l)[12;41H[K[12;39H[34h[?25h[?25ls))[34h[?25h[?25le))[34h[?25h[?25lc))[34h[?25h[?25lo))[34h[?25h[?25ln))[34h[?25h[?25l)[12;45H[K[12;43H[34h[?25h[?25l)[12;44H[K[12;42H[34h[?25h[?25l)[12;43H[K[12;41H[34h[?25h[?25l)[12;42H[K[12;40H[34h[?25h[?25l)[12;41H[K[12;39H[34h[?25h[?25lt))[34h[?25h[?25li))[34h[?25h[?25lm))[34h[?25h[?25le))[34h[?25h[11;42H[10;43H[9;43Helapsed_[?25leconds=time.mktime(stop_time) - time.mktime(start_time)[9;64H[K[9;9H[34h[?25h[?25lconds=time.mktime(stop_time) - time.mktime(start_time)[9;63H[K[9;9H[34h[?25h[?25londs=time.mktime(stop_time) - time.mktime(start_time)[9;62H[K[9;9H[34h[?25h[?25lnds=time.mktime(stop_time) - time.mktime(start_time)[9;61H[K[9;9H[34h[?25h[?25lds=time.mktime(stop_time) - time.mktime(start_time)[9;60H[K[9;9H[34h[?25h[?25ls=time.mktime(stop_time) - time.mktime(start_time)[9;59H[K[9;9H[34h[?25h[?25l=time.mktime(stop_time) - time.mktime(start_time)[9;58H[K[9;9H[34h[?25h[?25lt=time.mktime(stop_time) - time.mktime(start_time)[9;10H[34h[?25h[?25li=time.mktime(stop_time) - time.mktime(start_time)[9;11H[34h[?25h[?25lm=time.mktime(stop_time) - time.mktime(start_time)[9;12H[34h[?25h[?25le=time.mktime(stop_time) - time.mktime(start_time)[9;13H[34h[?25h[32;1H[K[9;12H[?25l[34h[?25h[?25l[32;1H:[34h[?25hx[?25l"timer.py" 12L, 493C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi timer.py./timer.py 
+Time started at 15:04:01
+press 'enter' to stop the timer
+Start   Time : time.struct_time(tm_year=2019, tm_mon=8, tm_mday=18, tm_hour=15, tm_min=4, tm_sec=1, tm_wday=6, tm_yday=230, tm_isdst=0)
+Stop    Time : time.struct_time(tm_year=2019, tm_mon=8, tm_mday=18, tm_hour=15, tm_min=4, tm_sec=2, tm_wday=6, tm_yday=230, tm_isdst=0)
+Elapsed Time : 1.0
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./timer.py 
+Time started at 15:04:25
+press 'enter' to stop the timer
+Start   Time : time.struct_time(tm_year=2019, tm_mon=8, tm_mday=18, tm_hour=15, tm_min=4, tm_sec=25, tm_wday=6, tm_yday=230, tm_isdst=0)
+Stop    Time : time.struct_time(tm_year=2019, tm_mon=8, tm_mday=18, tm_hour=15, tm_min=4, tm_sec=33, tm_wday=6, tm_yday=230, tm_isdst=0)
+Elapsed Time : 8.0
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ git stats[Kus 
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	timer.py
+#	using_standard_library_packages
+nothing added to commit but untracked files present (use "git add" to track)
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ [Agit status ./timer.py[Cvi timer.py
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"timer.py" 12L, 493C[1;1H#!/usr/bin/env python
+# This is a timer program in which we calcluate time difference between start and stop time in seconds
+import time
+
+start_time = time.localtime()
+print("Time started at " + time.strftime('%X',start_time))
+raw_input("press 'enter' to stop the timer")
+stop_time= time.localtime()
+elapsed_time=time.mktime(stop_time) - time.mktime(start_time)
+print("Start   Time : " + str(start_time))
+print("Stop    Time : " + str(stop_time))
+print("Elapsed Time : " + str(elapsed_time))
+[1m[34m~                                                                                                      [14;1H~                                                                                                      [15;1H~                                                                                                      [16;1H~                                                                                                      [17;1H~                                                                                                      [18;1H~                                                                                                      [19;1H~                                                                                                      [20;1H~                                                                                                      [21;1H~                                                                                                      [22;1H~                                                                                                      [23;1H~                                                                                                      [24;1H~                                                                                                      [25;1H~                                                                                                      [26;1H~                                                                                                      [27;1H~                                                                                                      [28;1H~                                                                                                      [29;1H~                                                                                                      [30;1H~                                                                                                      [31;1H~                                                                                                      [1;1H[34h[?25h
+
+
+
+
+
+
+
+
+[9;1H[8;1H[7;1H[6;1H[5;1H
+
+
+
+
+
+
+[11;1H[40C[10;33H[?25l[0m[32;1H[1m-- INSERT --[0m[32;13H[K[10;31H[34h[?25h[?25ltstart_time))[10;32H[34h[?25h[?25listart_time))[10;33H[34h[?25h[?25lmstart_time))[10;34H[34h[?25h[?25lestart_time))[10;35H[34h[?25h[?25l(start_time))[10;36H[34h[?25h[?25lstart_time)[10;47H[K[10;35H[34h[?25h[?25l.start_time))[10;36H[34h[?25h[?25lsstart_time))[10;37H[34h[?25h[?25ltstart_time))[10;38H[34h[?25h[?25lrstart_time))[10;39H[34h[?25h[?25lfstart_time))[10;40H[34h[?25h[?25ltstart_time))[10;41H[34h[?25h[?25listart_time))[10;42H[34h[?25h[?25lmstart_time))[10;43H[34h[?25h[?25lestart_time))[10;44H[34h[?25h[?25l(start_time))[10;45H[34h[?25hstart_time)[?25l))[34h[?25h[?25l"start_time)))[10;46H[34h[?25h[?25l%start_time)))[10;47H[34h[?25h[?25lXstart_time)))[10;48H[34h[?25h[?25l,start_time)))[10;49H[34h[?25h[11;42H[12;45H[11;42H[10;49H[11;42H[?25ltstop_time))[11;32H[34h[?25h[?25listop_time))[11;33H[34h[?25h[?25lmstop_time))[11;34H[34h[?25h[?25lestop_time))[11;35H[34h[?25h[?25l.stop_time))[11;36H[34h[?25h[?25lsstop_time))[11;37H[34h[?25h[?25ltstop_time))[11;38H[34h[?25h[?25lrstop_time))[11;39H[34h[?25h[?25lfstop_time))[11;40H[34h[?25h[?25ltstop_time))[11;41H[34h[?25h[?25listop_time))[11;42H[34h[?25h[?25lmstop_time))[11;43H[34h[?25h[?25lestop_time))[11;44H[34h[?25h[?25l(stop_time))[11;45H[34h[?25h[?25l"stop_time))[11;46H[34h[?25h[?25l%stop_time))[11;47H[34h[?25h[?25lXstop_time))[11;48H[34h[?25h[?25l,stop_time))[11;49H[34h[?25h[?25l stop_time))[11;50H[34h[?25h[11C[10;59H[?25l start_time)))[10;50H[34h[?25h[11;50H[11C[?25l)))[34h[?25h[32;1H[K[?25l[11;59H[34h[?25h[?25l[32;1H:[34h[?25hx[?25l"timer.py" 12L, 533C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi timer.pygit status vi timer.py[Kvi timer.py 
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"timer.py" 12L, 533C[1;1H#!/usr/bin/env python
+# This is a timer program in which we calcluate time difference between start and stop time in seconds
+import time
+
+start_time = time.localtime()
+print("Time started at " + time.strftime('%X',start_time))
+raw_input("press 'enter' to stop the timer")
+stop_time= time.localtime()
+elapsed_time=time.mktime(stop_time) - time.mktime(start_time)
+print("Start   Time : " + str(time.strftime("%X, start_time)))
+print("Stop    Time : " + str(time.strftime("%X, stop_time)))
+print("Elapsed Time : " + str(elapsed_time))
+[1m[34m~                                                                                                      [14;1H~                                                                                                      [15;1H~                                                                                                      [16;1H~                                                                                                      [17;1H~                                                                                                      [18;1H~                                                                                                      [19;1H~                                                                                                      [20;1H~                                                                                                      [21;1H~                                                                                                      [22;1H~                                                                                                      [23;1H~                                                                                                      [24;1H~                                                                                                      [25;1H~                                                                                                      [26;1H~                                                                                                      [27;1H~                                                                                                      [28;1H~                                                                                                      [29;1H~                                                                                                      [30;1H~                                                                                                      [31;1H~                                                                                                      [1;1H[34h[?25h
+
+
+
+
+
+
+
+
+[?25l[0m[32;1H[1m-- INSERT --[0m[32;13H[K[10;1H[K[10;1H[34h[?25h[32;1H[K[10;1H[?25l[34h[?25h[9;1H[8;1H[7;1H[6;1H[5;1H
+[?25l[6;31r[31;1H
+[1;32r[31;1H[1m[34m~                                                                                                      [6;1H[34h[?25h[5;1H[28C[?25l[6;31r[0m[6;1H[L[1;32r[6;1Hprint("Time started at " + time.strftime('%X',start_time))[34h[?25hprint("T[?25lime started at " + time.strftime('%X',start_time)[6;58H[K[6;8H[34h[?25h[?25lme started at " + time.strftime('%X',start_time)[6;57H[K[6;8H[34h[?25h[?25le started at " + time.strftime('%X',start_time)[6;56H[K[6;8H[34h[?25h[?25l started at " + time.strftime('%X',start_time)[6;55H[K[6;8H[34h[?25h[?25lstarted at " + time.strftime('%X',start_time)[6;54H[K[6;8H[34h[?25h[?25ltarted at " + time.strftime('%X',start_time)[6;53H[K[6;8H[34h[?25h[?25larted at " + time.strftime('%X',start_time)[6;52H[K[6;8H[34h[?25h[?25lrted at " + time.strftime('%X',start_time)[6;51H[K[6;8H[34h[?25h[?25lted at " + time.strftime('%X',start_time)[6;50H[K[6;8H[34h[?25h[?25led at " + time.strftime('%X',start_time)[6;49H[K[6;8H[34h[?25h[?25ld at " + time.strftime('%X',start_time)[6;48H[K[6;8H[34h[?25h[?25l at " + time.strftime('%X',start_time)[6;47H[K[6;8H[34h[?25h[?25lat " + time.strftime('%X',start_time)[6;46H[K[6;8H[34h[?25h[?25lt " + time.strftime('%X',start_time)[6;45H[K[6;8H[34h[?25h[?25l " + time.strftime('%X',start_time)[6;44H[K[6;8H[34h[?25h[?25l[32;1H[1m-- INSERT --[0m[6;1H[K[6;1H[34h[?25h[?25lt[34h[?25h[?25la[34h[?25h[?25lr[34h[?25h[?25lt[34h[?25h[32;1H[K[?25l[6;4H[34h[?25h[?25l[32;1H1 change; before #19  3 seconds ago[6;1Hprint(" " + time.strftime('%X',start_time))[34h[?25hprint(" [?25l[32;1H[1m-- INSERT --[0m[32;13H[K[6;9H[34h[?25h[?25lS" + time.strftime('%X',start_time))[6;10H[34h[?25h[?25lt" + time.strftime('%X',start_time))[6;11H[34h[?25h[?25la" + time.strftime('%X',start_time))[6;12H[34h[?25h[?25lr" + time.strftime('%X',start_time))[6;13H[34h[?25h[?25lt" + time.strftime('%X',start_time))[6;14H[34h[?25h[?25lStart" + time.strftime('%X',start_time)[6;48H[K[6;8H[34h[?25hStart[?25l " + time.strftime('%X',start_time))[6;14H[34h[?25h[?25lT" + time.strftime('%X',start_time))[6;15H[34h[?25h[?25li" + time.strftime('%X',start_time))[6;16H[34h[?25h[?25lm" + time.strftime('%X',start_time))[6;17H[34h[?25h[?25le" + time.strftime('%X',start_time))[6;18H[34h[?25h[?25l:" + time.strftime('%X',start_time))[6;19H[34h[?25h[?25l :" + time.strftime('%X',start_time))[6;19H[34h[?25h:[?25l " + time.strftime('%X',start_time))[6;21H[34h[?25h[32;1H[K[6;20H[?25l[34h[?25h[7;20H[8;20H[9;20H
+[11;20H[?25l[32;1H[1m-- INSERT --[0m[11;1H[K[11;1H[34h[?25h[32;1H[K[?25l[11;1H[34h[?25h[10;1H[9;1H[8;1H[?25l[9;31r[9;1H[L[1;32r[9;1Hprint("Stop    Time : " + str(time.strftime("%X, stop_time)))[34h[?25h
+
+[?25l[11;31r[31;1H
+[1;32r[31;1H[1m[34m~                                                                                                      [11;1H[34h[?25h[?25l[11;31r[0m[31;1H
+[1;32r[31;1H[1m[34m~                                                                                                      [11;1H[34h[?25h[?25l[32;1H[0m:[34h[?25hx[?25l"timer.py" 11L, 467C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./timer.py 
+  File "./timer.py", line 9
+    print("Stop    Time : " + str(time.strftime("%X, stop_time)))
+                                                                ^
+SyntaxError: EOL while scanning string literal
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./timer.py [1@vi [C[C[C[C[C[C[C[C[C
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"timer.py" 11L, 467C[1;1H#!/usr/bin/env python
+# This is a timer program in which we calcluate time difference between start and stop time in seconds
+import time
+
+start_time = time.localtime()
+print("Start Time : " + time.strftime('%X',start_time))
+raw_input("press 'enter' to stop the timer")
+stop_time= time.localtime()
+print("Stop    Time : " + str(time.strftime("%X, stop_time)))
+elapsed_time=time.mktime(stop_time) - time.mktime(start_time)
+print("Elapsed Time : " + str(elapsed_time))
+[1m[34m~                                                                                                      [13;1H~                                                                                                      [14;1H~                                                                                                      [15;1H~                                                                                                      [16;1H~                                                                                                      [17;1H~                                                                                                      [18;1H~                                                                                                      [19;1H~                                                                                                      [20;1H~                                                                                                      [21;1H~                                                                                                      [22;1H~                                                                                                      [23;1H~                                                                                                      [24;1H~                                                                                                      [25;1H~                                                                                                      [26;1H~                                                                                                      [27;1H~                                                                                                      [28;1H~                                                                                                      [29;1H~                                                                                                      [30;1H~                                                                                                      [31;1H~                                                                                                      [1;1H[34h[?25h
+
+
+
+
+
+
+
+
+
+[10;1H[9;1H[60C[?25l[0m[9;61H[K[9;60H[34h[?25h[?25l[32;1H[K[32;1H:[34h[?25hx[?25l"timer.py" 11L, 466C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi timer.py [1P./[C[C[C[C[C[C[C[C[C
+  File "./timer.py", line 9
+    print("Stop    Time : " + str(time.strftime("%X, stop_time))
+                                                               ^
+SyntaxError: EOL while scanning string literal
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./timer.py [1@vi [C[C[C[C[C[C[C[C[C
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"timer.py" 11L, 466C[1;1H#!/usr/bin/env python
+# This is a timer program in which we calcluate time difference between start and stop time in seconds
+import time
+
+start_time = time.localtime()
+print("Start Time : " + time.strftime('%X',start_time))
+raw_input("press 'enter' to stop the timer")
+stop_time= time.localtime()
+print("Stop    Time : " + str(time.strftime("%X, stop_time))
+elapsed_time=time.mktime(stop_time) - time.mktime(start_time)
+print("Elapsed Time : " + str(elapsed_time))
+[1m[34m~                                                                                                      [13;1H~                                                                                                      [14;1H~                                                                                                      [15;1H~                                                                                                      [16;1H~                                                                                                      [17;1H~                                                                                                      [18;1H~                                                                                                      [19;1H~                                                                                                      [20;1H~                                                                                                      [21;1H~                                                                                                      [22;1H~                                                                                                      [23;1H~                                                                                                      [24;1H~                                                                                                      [25;1H~                                                                                                      [26;1H~                                                                                                      [27;1H~                                                                                                      [28;1H~                                                                                                      [29;1H~                                                                                                      [30;1H~                                                                                                      [31;1H~                                                                                                      [1;1H[34h[?25h
+
+
+
+
+[54C[?25l[0m[32;1H[1m-- INSERT --[0m[32;13H[K[6;56H[34h[?25h[?25l)[34h[?25h[7;45H[8;28H[9;57Hme))[?25l)[34h[?25h[?25l", stop_time)))[9;49H[34h[?25h[8;28H[7;45H[6;49H[5;30H[6;49H[?25l,start_time)[6;56H[K[6;42H[34h[?25h[?25l",start_time)))[6;43H[34h[?25h'[?25l%X",start_time)[6;56H[K[6;39H[34h[?25h[?25l"%X",start_time)))[6;40H[34h[?25h[32;1H[K[6;39H[?25l[34h[?25h[?25l[32;1H:[34h[?25hx[?25l"timer.py" 11L, 469C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi timer.py [1P./[C[C[C[C[C[C[C[C[C
+  File "./timer.py", line 6
+    print("Start Time : " + time.strftime("%X",start_time)))
+                                                           ^
+SyntaxError: invalid syntax
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./timer.py [1@vi [C[C[C[C[C[C[C[C[C
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"timer.py" 11L, 469C[1;1H#!/usr/bin/env python
+# This is a timer program in which we calcluate time difference between start and stop time in seconds
+import time
+
+start_time = time.localtime()
+print("Start Time : " + time.strftime("%X",start_time)))
+raw_input("press 'enter' to stop the timer")
+stop_time= time.localtime()
+print("Stop    Time : " + str(time.strftime("%X", stop_time)))
+elapsed_time=time.mktime(stop_time) - time.mktime(start_time)
+print("Elapsed Time : " + str(elapsed_time))
+[1m[34m~                                                                                                      [13;1H~                                                                                                      [14;1H~                                                                                                      [15;1H~                                                                                                      [16;1H~                                                                                                      [17;1H~                                                                                                      [18;1H~                                                                                                      [19;1H~                                                                                                      [20;1H~                                                                                                      [21;1H~                                                                                                      [22;1H~                                                                                                      [23;1H~                                                                                                      [24;1H~                                                                                                      [25;1H~                                                                                                      [26;1H~                                                                                                      [27;1H~                                                                                                      [28;1H~                                                                                                      [29;1H~                                                                                                      [30;1H~                                                                                                      [31;1H~                                                                                                      [1;1H[34h[?25h
+
+
+
+
+[55C[?25l[0m[6;56H[K[6;55H[34h[?25h[7;44H[8;27H[9;55H[10;55H[9;55H[10;55H[9;55Hp[60C))[?25l[9;62H[K[9;61H[34h[?25h[?25ltr(time.strftime("%X", stop_time)[9;61H[K[9;27H[34h[?25h[?25lr(time.strftime("%X", stop_time)[9;60H[K[9;27H[34h[?25h[?25l(time.strftime("%X", stop_time)[9;59H[K[9;27H[34h[?25h[?25ltime.strftime("%X", stop_time)[9;58H[K[9;27H[34h[?25h[10;27H[11;26H [?25l[32;1H[K[32;1H:[34h[?25hx[?25l"timer.py" 11L, 463C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi timer.py [1P./[C[C[C[C[C[C[C[C[C
+Start Time : 15:09:37
+press 'enter' to stop the timer
+Stop    Time : 15:09:40
+Elapsed Time : 3.0
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ git add timer.py
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ "[KE[Kecho 'Teher ar[K[K[K[K[K[K[Khere are tewo ways [K[K[K[K[K[K[K[K[Kwo ways of importing a library
+> 1. import <library_name>
+> this works most o[K[K[K[K[K[K[K[K[K[K[K[Kmerans we are importing all functions that are decalred inside <library_name>, everytime we need  to call <some_func> declared inside <library_name> we need top [K[K call it like <library_name>.<some_func>
+> 2.from <library_name> import <some)func1[K[K[K[K[K[K_func1>, <M[Ksome_func2>, <some_func3>, <some_func4> - If you notice w e are calli[K[K[K[K[Kimporting onluy[K[Ky afew functions inside <libn[K[Kbrary_name>, w[Kthis gives us flexibility to call those func tions directly in out [K[Kr code withoput[K[K[K[Kout mne[K[Kentioning its library for example - <[Kmyvar=[K -[K-[K= some_func2><some_func2>>some_func2>[1Psome_func2>[C[C[C[C[C[C[C[C[C[C[C'
+There are two ways of importing a library
+1. import <library_name>
+this merans we are importing all functions that are decalred inside <library_name>, everytime we need to call <some_func> declared inside <library_name> we need to call it like <library_name>.<some_func>
+2.from <library_name> import <some_func1>, <some_func2>, <some_func3>, <some_func4> - If you notice we are importing only afew functions inside <library_name>, this gives us flexibility to call those functions directly in our code without mentioning its library for example - myvar = <some_func2>
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ exit
+
+Script done on Sun 18 Aug 2019 03:21:55 PM UTC
