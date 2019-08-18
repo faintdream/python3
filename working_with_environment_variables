@@ -1,0 +1,205 @@
+Script started on Sun 18 Aug 2019 03:27:59 PM UTC
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ vim uain[K[K[Ks[K[Kenvironment_var_example.rb[K[Kpy
+bash: vim: command not found
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ vim environment_var_example.py[C[C[C[1P environment_var_example.py
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"environment_var_example.py" [New File][2;1H[1m[34m~                                                                                                       [3;1H~                                                                                                       [4;1H~                                                                                                       [5;1H~                                                                                                       [6;1H~                                                                                                       [7;1H~                                                                                                       [8;1H~                                                                                                       [9;1H~                                                                                                       [10;1H~                                                                                                       [11;1H~                                                                                                       [12;1H~                                                                                                       [13;1H~                                                                                                       [14;1H~                                                                                                       [15;1H~                                                                                                       [16;1H~                                                                                                       [17;1H~                                                                                                       [18;1H~                                                                                                       [19;1H~                                                                                                       [20;1H~                                                                                                       [21;1H~                                                                                                       [22;1H~                                                                                                       [23;1H~                                                                                                       [24;1H~                                                                                                       [25;1H~                                                                                                       [26;1H~                                                                                                       [27;1H~                                                                                                       [28;1H~                                                                                                       [29;1H~                                                                                                       [30;1H~                                                                                                       [31;1H~                                                                                                       [1;1H[34h[?25h[?25l[0m[32;1H[1m-- INSERT --[0m[32;13H[K[1;1H[34h[?25h[?25l#[34h[?25h[?25l![34h[?25h[?25l/[34h[?25h[?25lu[34h[?25h[?25ls[34h[?25h[?25l/[34h[?25h[?25l[1;6H[K[1;6H[34h[?25h[?25lr[34h[?25h[?25l/[34h[?25h[?25lb[34h[?25h[?25li[34h[?25h[?25ln[34h[?25h[?25l/[34h[?25h[?25le[34h[?25h[?25ln[34h[?25h[?25lv[34h[?25h[?25l [34h[?25h[?25lp[34h[?25h[?25ly[34h[?25h[?25lt[34h[?25h[?25lh[34h[?25h[?25lo[34h[?25h[?25ln[34h[?25h[?25l[2;1H[K[2;1H[34h[?25h[?25l[3;1H[K[3;1H[34h[?25h[?25l#[34h[?25h[?25l [34h[?25h[?25lt[34h[?25h[?25lh[34h[?25h[?25li[34h[?25h[?25ls[34h[?25h[?25l [34h[?25h[?25lp[34h[?25h[?25lr[34h[?25h[?25lo[34h[?25h[?25lg[34h[?25h[?25lr[34h[?25h[?25la[34h[?25h[?25lm[34h[?25h[?25l:[34h[?25h[?25l[3;15H[K[3;15H[34h[?25h[32;1H[K[?25l[3;14H[34h[?25h[?25l[32;1H:[34h[?25hw[?25l"environment_var_example.py" [New] 3L, 38C written[3;14H[34h[?25h[?25l[32;1H[1m-- INSERT --[0m[32;13H[K[3;15H[34h[?25h[?25l [34h[?25h[?25ld[34h[?25h[?25le[34h[?25h[?25lm[34h[?25h[?25lo[34h[?25h[?25ln[34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25lr[34h[?25h[?25la[34h[?25h[?25lt[34h[?25h[?25le[34h[?25h[?25ls[34h[?25h[?25l [34h[?25h[?25lu[34h[?25h[?25ls[34h[?25h[?25le[34h[?25h[?25l [34h[?25h[?25lo[34h[?25h[?25lf[34h[?25h[?25l [34h[?25h[?25lc[34h[?25h[?25lo[34h[?25h[?25l[3;37H[K[3;37H[34h[?25h[?25l[3;36H[K[3;36H[34h[?25h[?25lg[34h[?25h[?25le[34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25ln[34h[?25h[?25lg[34h[?25h[?25l [34h[?25h[?25l[34h[?25h[?25l[3;41H[K[3;41H[34h[?25h[?25l[3;40H[K[3;40H[34h[?25h[?25l[3;39H[K[3;39H[34h[?25h[?25l[3;38H[K[3;38H[34h[?25h[?25l[3;37H[K[3;37H[34h[?25h[?25l[3;36H[K[3;36H[34h[?25h[?25l[34h[?25h[?25l[3;34H[K[3;34H[34h[?25h[?25l[3;33H[K[3;33H[34h[?25h[?25l[34h[?25h[?25l[3;31H[K[3;31H[34h[?25h[?25l[3;30H[K[3;30H[34h[?25h[?25l[3;29H[K[3;29H[34h[?25h[?25lg[34h[?25h[?25le[34h[?25h[?25lt[34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25ln[34h[?25h[?25lg[34h[?25h[?25l [34h[?25h[?25lN[34h[?25h[?25lE[34h[?25h[?25lV[34h[?25h[?25lI[34h[?25h[?25lR[34h[?25h[?25lO[34h[?25h[?25lN[34h[?25h[?25lM[34h[?25h[?25lE[34h[?25h[?25lN[34h[?25h[?25l[3;46H[K[3;46H[34h[?25h[?25l[3;45H[K[3;45H[34h[?25h[?25l[3;44H[K[3;44H[34h[?25h[?25l[3;43H[K[3;43H[34h[?25h[?25l[3;42H[K[3;42H[34h[?25h[?25l[3;41H[K[3;41H[34h[?25h[?25l[3;40H[K[3;40H[34h[?25h[?25l[3;39H[K[3;39H[34h[?25h[?25l[3;38H[K[3;38H[34h[?25h[?25l[3;37H[K[3;37H[34h[?25h[?25lE[34h[?25h[?25lN[34h[?25h[?25lV[34h[?25h[?25lI[34h[?25h[?25lR[34h[?25h[?25lO[34h[?25h[?25lN[34h[?25h[?25lM[34h[?25h[?25lE[34h[?25h[?25lN[34h[?25h[?25lT[34h[?25h[?25l_[34h[?25h[?25lV[34h[?25h[?25lA[34h[?25h[?25lR[34h[?25h[?25lI[34h[?25h[?25lA[34h[?25h[?25lB[34h[?25h[?25lL[34h[?25h[?25lE[34h[?25h[?25l [34h[?25h[?25lf[34h[?25h[?25lo[34h[?25h[?25lr[34h[?25h[?25lm[34h[?25h[?25l [34h[?25h[?25l[34h[?25h[?25l[3;61H[K[3;61H[34h[?25h[?25l[3;60H[K[3;60H[34h[?25h[?25l[3;59H[K[3;59H[34h[?25h[?25lr[34h[?25h[?25lo[34h[?25h[?25lm[34h[?25h[?25l [34h[?25h[?25lt[34h[?25h[?25lh[34h[?25h[?25le[34h[?25h[?25l [34h[?25h[?25lo[34h[?25h[?25ls[34h[?25h[?25l [34h[?25h[?25la[34h[?25h[?25ln[34h[?25h[?25ld[34h[?25h[?25l [34h[?25h[?25ld[34h[?25h[?25lo[34h[?25h[?25li[34h[?25h[?25ln[34h[?25h[?25lg[34h[?25h[?25l [34h[?25h[?25ls[34h[?25h[?25lo[34h[?25h[?25lm[34h[?25h[?25le[34h[?25h[?25l [34h[?25h[?25la[34h[?25h[?25lc[34h[?25h[?25lt[34h[?25h[?25lr[34h[?25h[?25li[34h[?25h[?25lo[34h[?25h[?25ln[34h[?25h[?25l[3;91H[K[3;91H[34h[?25h[?25l[3;90H[K[3;90H[34h[?25h[?25l[3;89H[K[3;89H[34h[?25h[?25l[3;88H[K[3;88H[34h[?25h[?25lt[34h[?25h[?25li[34h[?25h[?25lo[34h[?25h[?25ln[34h[?25h[?25l [34h[?25h[?25lb[34h[?25h[?25la[34h[?25h[?25ls[34h[?25h[?25ld[34h[?25h[?25le[34h[?25h[?25ld[34h[?25h[?25l [34h[?25h[?25lo[34h[?25h[?25ln[34h[?25h[?25l [34h[?25h[?25lt[34h[?25h[?25l[3;103H[K[3;103H[34h[?25h[?25l[34h[?25h[?25l[3;101H[K[3;101H[34h[?25h[?25l[3;100H[K[3;100H[34h[?25h[?25l[34h[?25h[?25l[3;98H[K[3;98H[34h[?25h[?25l[3;97H[K[3;97H[34h[?25h[?25l[3;96H[K[3;96H[34h[?25h[?25le[34h[?25h[?25ld[34h[?25h[?25l [34h[?25h[?25lo[34h[?25h[?25ln[34h[?25h[?25l [34h[?25h[?25lt[34h[?25h[?25lh[34h[?25h[?25la[4;1H[34h[?25h[?25lt[4;2H[K[4;2H[34h[?25h[?25l.[34h[?25h[?25l[5;1H[K[5;1H[34h[?25h[?25l[6;1H[K[6;1H[34h[?25h[?25ld[34h[?25h[?25le[34h[?25h[?25lf[34h[?25h[?25l[6;3H[K[6;3H[34h[?25h[?25l[6;2H[K[6;2H[34h[?25h[?25l[6;1H[K[6;1H[34h[?25h[?25ld[34h[?25h[?25le[34h[?25h[?25lf[34h[?25h[?25l [34h[?25h[?25lg[34h[?25h[?25le[34h[?25h[?25lt[34h[?25h[?25l_[34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25la[34h[?25h[?25lg[34h[?25h[?25le[34h[?25h[?25l_[34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25la[34h[?25h[?25lt[34h[?25h[?25lu[34h[?25h[?25ls[34h[?25h[?25l:[34h[?25h[?25l[7;1H[K[7;1H[34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25lp[34h[?25h[?25lr[34h[?25h[?25li[34h[?25h[?25ln[34h[?25h[?25lt[34h[?25h[?25l[7;9H[K[7;9H[34h[?25h[?25l[7;8H[K[7;8H[34h[?25h[?25l[7;7H[K[7;7H[34h[?25h[?25l[7;6H[K[7;6H[34h[?25h[?25l[7;5H[K[7;5H[34h[?25h[6;5H[5;1H[3;5H[2;1H[1;5H
+
+# th
+
+[?25l[6;31r[6;1H[L[1;32r[6;1H[34h[?25h[?25li[34h[?25h[?25lm[34h[?25h[?25lp[34h[?25h[?25lo[34h[?25h[?25lt[34h[?25h[?25l[6;5H[K[6;5H[34h[?25h[?25lr[34h[?25h[?25lt[34h[?25h[?25l [34h[?25h[?25lo[34h[?25h[?25ls[34h[?25h[?25l [34h[?25h[?25l[7;31r[7;1H[L[1;32r[7;1H[34h[?25h
+
+[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25lo[34h[?25h[?25ls[34h[?25h[?25l.[34h[?25h[?25lg[34h[?25h[?25le[34h[?25h[?25lt[34h[?25h[?25le[34h[?25h[?25ln[34h[?25h[?25lv[34h[?25h[?25l([34h[?25h[?25l"[34h[?25h[?25lS[34h[?25h[?25lT[34h[?25h[?25lA[34h[?25h[?25lG[34h[?25h[?25lE[34h[?25h[?25l"[34h[?25h[?25l)[34h[?25h[?25l,)[34h[?25h[?25l )[34h[?25h[?25ld)[34h[?25h[?25le)[34h[?25h[?25lf)[34h[?25h[?25la)[34h[?25h[?25lu)[34h[?25h[?25ll)[34h[?25h[?25lt)[34h[?25h[?25l=)[34h[?25h[?25l")[34h[?25h[?25ld)[34h[?25h[?25le)[34h[?25h[?25lv)[34h[?25h[?25l")[34h[?25h)[?25l
+    [10;5H[K[10;1H[34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25lo[34h[?25h[?25lu[34h[?25h[?25lt[34h[?25h[?25lp[34h[?25h[?25lu[34h[?25h[?25lt[34h[?25h[?25l [34h[?25h[?25l=[34h[?25h[?25l [34h[?25h[?25lW[34h[?25h[?25le[34h[?25h[?25l [34h[?25h[?25la[34h[?25h[?25lr[34h[?25h[?25le[34h[?25h[?25l [34h[?25h[?25li[34h[?25h[?25ln[34h[?25h[?25l [34h[?25h[9;24H[8;22H[9;24H[?25lsos.getenv("STAGE", default="dev")    s[34h[?25h[?25ltos.getenv("STAGE", default="dev")[9;7H[34h[?25h[?25laos.getenv("STAGE", default="dev")[9;8H[34h[?25h[?25lgos.getenv("STAGE", default="dev")[9;9H[34h[?25h[?25leos.getenv("STAGE", default="dev")[9;10H[34h[?25h[?25l os.getenv("STAGE", default="dev")[9;11H[34h[?25h[?25l=os.getenv("STAGE", default="dev")[9;12H[34h[?25h[?25l os.getenv("STAGE", default="dev")[9;13H[34h[?25h[10;13H We are in[?25l [34h[?25h[?25l+[34h[?25h[?25l [34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25la[34h[?25h[?25lg[34h[?25h[?25le[34h[?25h [?25ls[34h[?25h[?25le[34h[?25h[?25lr[34h[?25h[?25lv[34h[?25h[?25le[34h[?25h[?25lr[34h[?25h[?25l.[34h[?25h[?25l
+    [11;5H[K[11;1H[34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25li[34h[?25h[?25lf[34h[?25h[?25l [34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25la[34h[?25h[?25lg[34h[?25h[?25le[34h[?25h[?25l.[34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25la[34h[?25h[?25lr[34h[?25h[?25lt[34h[?25h[?25ls[34h[?25h[?25lw[34h[?25h[?25li[34h[?25h[?25lt[34h[?25h[?25lh[34h[?25h[?25l([34h[?25h[?25l"[34h[?25h[?25lp[34h[?25h[?25lr[34h[?25h[?25lo[34h[?25h[?25ld[34h[?25h[?25l"[34h[?25h[?25l)[34h[?25h[?25l.[34h[?25h[?25lu[34h[?25h[?25lp[34h[?25h[?25lp[34h[?25h[?25le[34h[?25h[?25lr[34h[?25h[?25l([34h[?25h[?25l)[34h[?25h[?25l:[34h[?25h[?25l
+    [12;5H[K[12;1H[34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25lD[34h[?25h[?25lA[34h[?25h[?25lN[34h[?25h[?25lG[34h[?25h[?25lE[34h[?25h[?25lR[34h[?25h[?25l [34h[?25h[?25l+[34h[?25h[?25l=[34h[?25h[?25l [34h[?25h[?25lo[34h[?25h[?25lu[34h[?25h[?25lt[34h[?25h[?25lp[34h[?25h[?25lu[34h[?25h[?25lt[34h[?25hR[?25l! += output[12;16H[34h[?25h[?25l! += output[12;17H[34h[?25h[?25l! += output[12;18H[34h[?25h[?25l! += output[12;19H[34h[?25h[?25l! += output[12;20H[34h[?25h[?25l"DANGER!!!!! += output[12;10H[34h[?25hDANGER!!!!!![?25l" += output[12;22H[34h[?25h += output[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l[34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25lo"DANGER!!!!!"[12;10H[34h[?25h[?25lu"DANGER!!!!!"[12;11H[34h[?25h[?25lt"DANGER!!!!!"[12;12H[34h[?25h[?25l "DANGER!!!!!"[12;13H[34h[?25h[?25lo"DANGER!!!!!"[12;14H[34h[?25h[?25lu"DANGER!!!!!"[12;15H[34h[?25h[?25lt"DANGER!!!!!"[12;16H[34h[?25h[?25l"DANGER!!!!!" [12;15H[34h[?25h[?25l"DANGER!!!!!" [12;14H[34h[?25h[?25l"DANGER!!!!!" [12;13H[34h[?25h[?25l"DANGER!!!!!" [12;12H[34h[?25h[?25lp"DANGER!!!!!"[12;13H[34h[?25h[?25lu"DANGER!!!!!"[12;14H[34h[?25h[?25lt"DANGER!!!!!"[12;15H[34h[?25h[?25l "DANGER!!!!!"[12;16H[34h[?25h[?25l="DANGER!!!!!"[12;17H[34h[?25h[?25l "DANGER!!!!!"[12;18H[34h[?25h"DANGER!!!!!" [?25l+[34h[?25h[?25l [34h[?25h[?25lo[34h[?25h[?25lu[34h[?25h[?25lt[34h[?25h[?25lp[34h[?25h[?25lu[34h[?25h[?25lt[34h[?25h[?25l [34h[?25h[?25l
+    [13;5H[K[13;1H[34h[?25h[?25l
+    [14;5H[K[14;1H[34h[?25h[?25l
+    [15;5H[K[15;1H[34h[?25h[?25l
+    [16;5H[K[16;1H[34h[?25h[15;1H[14;1H[13;1H
+[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25l [34h[?25h[?25le[34h[?25h[?25lw[34h[?25h[?25l[14;6H[K[14;6H[34h[?25h[?25l[14;5H[K[14;5H[34h[?25h[?25lr[34h[?25h[?25le[34h[?25h[?25lt[34h[?25h[?25lu[34h[?25h[?25lr[34h[?25h[?25ln[34h[?25h[?25l [34h[?25h[?25lo[34h[?25h[?25lu[34h[?25h[?25lt[34h[?25h[?25lp[34h[?25h[?25lu[34h[?25h[?25lt[34h[?25h[?25l[15;31r[15;1H[L[1;32r[15;1H[34h[?25h[?25l[16;31r[16;1H[L[1;32r[16;1H[34h[?25h[?25lc[34h[?25h[?25la[34h[?25h[?25ll[34h[?25h[?25ll[34h[?25h[?25l[16;4H[K[16;4H[34h[?25h[?25l[16;3H[K[16;3H[34h[?25h[?25l[16;2H[K[16;2H[34h[?25h[?25l[16;1H[K[16;1H[34h[?25h[?25lr[34h[?25h[?25le[34h[?25h[?25ls[34h[?25h[?25lu[34h[?25h[?25ll[34h[?25h[?25lt[34h[?25h[?25l[16;6H[K[16;6H[34h[?25h[?25lt[34h[?25h[?25l=[34h[?25h[?25l[16;7H[K[16;7H[34h[?25h[?25l [34h[?25h[?25l=[34h[?25h[?25l [34h[?25h[?25lg[34h[?25h[?25le[34h[?25h[?25lt[34h[?25h[?25l_[34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25la[34h[?25h[?25lg[34h[?25h[?25le[34h[?25h[?25l_[34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25la[34h[?25h[?25lt[34h[?25h[?25lu[34h[?25h[?25ls[34h[?25h[?25l([34h[?25h[?25l)[34h[?25h[?25l[17;31r[17;1H[L[1;32r[17;1H[34h[?25h[?25lp[34h[?25h[?25lr[34h[?25h[?25li[34h[?25h[?25ln[34h[?25h[?25lt[34h[?25h[?25l([34h[?25h[?25lr[34h[?25h[?25le[34h[?25h[?25ls[34h[?25h[?25lu[34h[?25h[?25ll[34h[?25h[?25lt[34h[?25h[?25l)[34h[?25h[32;1H[K[17;13H[?25l[34h[?25h[?25l[32;1H:[34h[?25hx[?25l"environment_var_example.py" 18L, 400C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi environment_var_example.py
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"environment_var_example.py" 18L, 400C[1;1H#!/usr/bin/env python
+
+# this program demonstrates getting ENVIRONMENT_VARIABLE from the os and doing some acttion based on thaa[4;1Ht.
+
+import os
+
+def get_stage_status:
+    stage = os.getenv("STAGE", default="dev")
+    output = We are in + stage server.
+    if stage.startswith("prod").upper():[12;9Houtput = "DANGER!!!!!" + output[14;5Hreturn output
+
+result = get_stage_status()
+print(result)
+
+
+[1m[34m~                                                                                                       [21;1H~                                                                                                       [22;1H~                                                                                                       [23;1H~                                                                                                       [24;1H~                                                                                                       [25;1H~                                                                                                       [26;1H~                                                                                                       [27;1H~                                                                                                       [28;1H~                                                                                                       [29;1H~                                                                                                       [30;1H~                                                                                                       [31;1H~                                                                                                       [1;1H[34h[?25h
+
+
+
+
+
+
+[?25l[0m[32;1H[K[32;1H:[34h[?25hx[?25l[32;1H[K[32;1H[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ chmod 755 environment_var_example.py 
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./environment_var_example.py 
+  File "./environment_var_example.py", line 7
+    def get_stage_status:
+                        ^
+SyntaxError: invalid syntax
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./environment_var_example.py [8@chmod 755 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pvi environment_var_example.py
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"environment_var_example.py" 18L, 400C[1;1H#!/usr/bin/env python
+
+# this program demonstrates getting ENVIRONMENT_VARIABLE from the os and doing some acttion based on thaa[4;1Ht.
+
+import os
+
+def get_stage_status:
+    stage = os.getenv("STAGE", default="dev")
+    output = We are in + stage server.
+    if stage.startswith("prod").upper():[12;9Houtput = "DANGER!!!!!" + output[14;5Hreturn output
+
+result = get_stage_status()
+print(result)
+
+
+[1m[34m~                                                                                                       [21;1H~                                                                                                       [22;1H~                                                                                                       [23;1H~                                                                                                       [24;1H~                                                                                                       [25;1H~                                                                                                       [26;1H~                                                                                                       [27;1H~                                                                                                       [28;1H~                                                                                                       [29;1H~                                                                                                       [30;1H~                                                                                                       [31;1H~                                                                                                       [1;1H[34h[?25h
+
+
+
+
+
+
+[20C[0ms[?25l[32;1H[1m-- INSERT --[0m[32;13H[K[8;21H[34h[?25h[?25l(:[34h[?25h[?25l):[34h[?25h[32;1H[K[?25l[8;22H[34h[?25h[?25l[32;1H:[34h[?25hx[?25l"environment_var_example.py" 18L, 402C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi environment_var_example.py./environment_var_example.py 
+  File "./environment_var_example.py", line 9
+    output = We are in + stage server.
+                  ^
+SyntaxError: invalid syntax
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./environment_var_example.py vi environment_var_example.py
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"environment_var_example.py" 18L, 402C[1;1H#!/usr/bin/env python
+
+# this program demonstrates getting ENVIRONMENT_VARIABLE from the os and doing some acttion based on thaa[4;1Ht.
+
+import os
+
+def get_stage_status():
+    stage = os.getenv("STAGE", default="dev")
+    output = We are in + stage server.
+    if stage.startswith("prod").upper():[12;9Houtput = "DANGER!!!!!" + output[14;5Hreturn output
+
+result = get_stage_status()
+print(result)
+
+
+[1m[34m~                                                                                                       [21;1H~                                                                                                       [22;1H~                                                                                                       [23;1H~                                                                                                       [24;1H~                                                                                                       [25;1H~                                                                                                       [26;1H~                                                                                                       [27;1H~                                                                                                       [28;1H~                                                                                                       [29;1H~                                                                                                       [30;1H~                                                                                                       [31;1H~                                                                                                       [1;1H[34h[?25h
+
+
+
+
+
+
+
+
+[0m    output = [?25l[32;1H[1m-- INSERT --[0m[32;13H[K[10;14H[34h[?25h[?25l"We are in + stage server.[10;15H[34h[?25hWe are in [?25l" + stage server.[10;25H[34h[?25h + stage [?25l+server.[10;35H[34h[?25h[?25l server.[10;36H[34h[?25h[?25l"server.[10;37H[34h[?25hserver.[?25l"[34h[?25h[11;41H[12;41H
+[12;41H[11;41H[10;45H[11;41H[12;41H
+[14;18H
+[16;28H[17;14H[32;1H[K[?25l[17;13H[34h[?25h[?25l[32;1H:[34h[?25hx[?25l"environment_var_example.py" 18L, 408C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi environment_var_example.py./environment_var_example.py 
+Traceback (most recent call last):
+  File "./environment_var_example.py", line 15, in <module>
+    result = get_stage_status()
+  File "./environment_var_example.py", line 10, in get_stage_status
+    if stage.startswith("prod").upper():
+AttributeError: 'bool' object has no attribute 'upper'
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./environment_var_example.py vi environment_var_example.py
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"environment_var_example.py" 18L, 408C[1;1H#!/usr/bin/env python
+
+# this program demonstrates getting ENVIRONMENT_VARIABLE from the os and doing some acttion based on thaa[4;1Ht.
+
+import os
+
+def get_stage_status():
+    stage = os.getenv("STAGE", default="dev")
+    output = "We are in" + stage + "server."
+    if stage.startswith("prod").upper():[12;9Houtput = "DANGER!!!!!" + output[14;5Hreturn output
+
+result = get_stage_status()
+print(result)
+
+
+[1m[34m~                                                                                                       [21;1H~                                                                                                       [22;1H~                                                                                                       [23;1H~                                                                                                       [24;1H~                                                                                                       [25;1H~                                                                                                       [26;1H~                                                                                                       [27;1H~                                                                                                       [28;1H~                                                                                                       [29;1H~                                                                                                       [30;1H~                                                                                                       [31;1H~                                                                                                       [1;1H[34h[?25h
+
+
+
+
+
+
+
+
+
+
+[11;1H[10;1H
+[39C[?25l[0m[32;1H[1m-- INSERT --[0m[32;13H[K[11;41H[34h[?25h[?25l:[11;40H[K[11;39H[34h[?25h[?25l:[11;39H[K[11;38H[34h[?25h[?25l:[11;38H[K[11;37H[34h[?25h[?25l:[11;37H[K[11;36H[34h[?25h[?25l:[11;36H[K[11;35H[34h[?25h[?25l:[11;35H[K[11;34H[34h[?25h[?25l:[11;34H[K[11;33H[34h[?25h[?25l:[11;33H[K[11;32H[34h[?25h[?25l"):[11;32H[K[11;29H[34h[?25h[?25l"):[11;31H[K[11;28H[34h[?25h[?25l"):[11;30H[K[11;27H[34h[?25h[?25l"):[11;29H[K[11;26H[34h[?25h[?25lP"):[34h[?25h[?25lR"):[34h[?25h[?25lO"):[34h[?25h[?25lD"):[34h[?25h[10;30H[9;30H[10;30H[9;30H, default="dev")[?25l.[34h[?25h[?25lu[34h[?25h[?25lp[34h[?25h[?25lp[34h[?25h[?25le[34h[?25h[?25lr[34h[?25h[?25l([34h[?25h[?25l)[34h[?25h[32;1H[K[?25l[9;53H[34h[?25h[?25l[32;1H:[34h[?25hx[?25l"environment_var_example.py" 18L, 408C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi environment_var_example.py./environment_var_example.py 
+We are inDEVserver.
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./environment_var_example.py vi environment_var_example.py
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"environment_var_example.py" 18L, 408C[1;1H#!/usr/bin/env python
+
+# this program demonstrates getting ENVIRONMENT_VARIABLE from the os and doing some acttion based on thaa[4;1Ht.
+
+import os
+
+def get_stage_status():
+    stage = os.getenv("STAGE", default="dev").upper()
+    output = "We are in" + stage + "server."
+    if stage.startswith("PROD"):[12;9Houtput = "DANGER!!!!!" + output[14;5Hreturn output
+
+result = get_stage_status()
+print(result)
+
+
+[1m[34m~                                                                                                       [21;1H~                                                                                                       [22;1H~                                                                                                       [23;1H~                                                                                                       [24;1H~                                                                                                       [25;1H~                                                                                                       [26;1H~                                                                                                       [27;1H~                                                                                                       [28;1H~                                                                                                       [29;1H~                                                                                                       [30;1H~                                                                                                       [31;1H~                                                                                                       [1;1H[34h[?25h
+
+
+
+
+
+
+
+
+[0m    output = "We are in" + stag[?25l[32;1H[1m-- INSERT --[0m[32;13H[K[10;24H[34h[?25h[?25l " + stage + "server."[10;25H[34h[?25h" + stage + "[?25l server."[10;39H[34h[?25h[32;1H[K[10;38H[?25l[34h[?25h[?25l[32;1H:[34h[?25hx[?25l"environment_var_example.py" 18L, 410C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi environment_var_example.py./environment_var_example.py 
+We are in DEV server.
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ stage=canary ./environment_var_example.py 
+We are in DEV server.
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ stage=canary ./environment_var_example.py [13P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvi environment_var_example.py
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"environment_var_example.py" 18L, 410C[1;1H#!/usr/bin/env python
+
+# this program demonstrates getting ENVIRONMENT_VARIABLE from the os and doing some acttion based on thaa[4;1Ht.
+
+import os
+
+def get_stage_status():
+    stage = os.getenv("STAGE", default="dev").upper()
+    output = "We are in " + stage + " server."
+    if stage.startswith("PROD"):[12;9Houtput = "DANGER!!!!!" + output[14;5Hreturn output
+
+result = get_stage_status()
+print(result)
+
+
+[1m[34m~                                                                                                       [21;1H~                                                                                                       [22;1H~                                                                                                       [23;1H~                                                                                                       [24;1H~                                                                                                       [25;1H~                                                                                                       [26;1H~                                                                                                       [27;1H~                                                                                                       [28;1H~                                                                                                       [29;1H~                                                                                                       [30;1H~                                                                                                       [31;1H~                                                                                                       [1;1H[34h[?25h
+
+
+
+
+
+
+
+[8;1H[7;1H[?25l[0m[32;1H[K[32;1H:[34h[?25hq[?25l[32;1H[K[32;1H[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi environment_var_example.pystage=canary ./environment_var_example.py [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13@stage=canary [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1@S[1@T[1@A[1@G[1@E
+We are in CANARY server.
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ STAGE=canary ./environment_var_example.py [1P[1P[1P[1P[1P[1P[1@p[1@r[1@o[1@d
+DANGER!!!!!We are in PROD server.
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ git[K[K[Kexit
+
+Script done on Sun 18 Aug 2019 03:44:30 PM UTC
