@@ -1,0 +1,371 @@
+Script started on Sun 18 Aug 2019 03:46:45 PM UTC
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ touch file_interaction.pt[Ky
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ chmof 755 file_interaction.py 
+bash: chmof: command not found
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ chmof 755 file_interaction.py [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@d
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./vi file_interaction.py 
+bash: ./vi: No such file or directory
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ./vi file_interaction.py [C[2P
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"file_interaction.py" 0L, 0C[2;1H[1m[34m~                                                                                                       [3;1H~                                                                                                       [4;1H~                                                                                                       [5;1H~                                                                                                       [6;1H~                                                                                                       [7;1H~                                                                                                       [8;1H~                                                                                                       [9;1H~                                                                                                       [10;1H~                                                                                                       [11;1H~                                                                                                       [12;1H~                                                                                                       [13;1H~                                                                                                       [14;1H~                                                                                                       [15;1H~                                                                                                       [16;1H~                                                                                                       [17;1H~                                                                                                       [18;1H~                                                                                                       [19;1H~                                                                                                       [20;1H~                                                                                                       [21;1H~                                                                                                       [22;1H~                                                                                                       [23;1H~                                                                                                       [24;1H~                                                                                                       [25;1H~                                                                                                       [26;1H~                                                                                                       [27;1H~                                                                                                       [28;1H~                                                                                                       [29;1H~                                                                                                       [30;1H~                                                                                                       [31;1H~                                                                                                       [1;1H[34h[?25h[?25l[0m[32;1H[K[32;1H:[34h[?25hq[?25l[32;1H[K[32;1H[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ sudo yum install vim -y
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: centos.excellmedia.net
+ * extras: centos.excellmedia.net
+ * updates: centos.excellmedia.net
+Resolving Dependencies
+--> Running transaction check
+---> Package vim-enhanced.x86_64 2:7.4.160-6.el7_6 will be installed
+--> Processing Dependency: vim-common = 2:7.4.160-6.el7_6 for package: 2:vim-enhanced-7.4.160-6.el7_6.x86_64
+--> Processing Dependency: libgpm.so.2()(64bit) for package: 2:vim-enhanced-7.4.160-6.el7_6.x86_64
+--> Running transaction check
+---> Package gpm-libs.x86_64 0:1.20.7-5.el7 will be installed
+---> Package vim-common.x86_64 2:7.4.160-6.el7_6 will be installed
+--> Processing Dependency: vim-filesystem for package: 2:vim-common-7.4.160-6.el7_6.x86_64
+--> Running transaction check
+---> Package vim-filesystem.x86_64 2:7.4.160-6.el7_6 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+========================================================================================================
+ Package                    Arch               Version                        Repository           Size
+========================================================================================================
+Installing:
+ vim-enhanced               x86_64             2:7.4.160-6.el7_6              updates             1.0 M
+Installing for dependencies:
+ gpm-libs                   x86_64             1.20.7-5.el7                   base                 32 k
+ vim-common                 x86_64             2:7.4.160-6.el7_6              updates             5.9 M
+ vim-filesystem             x86_64             2:7.4.160-6.el7_6              updates              10 k
+
+Transaction Summary
+========================================================================================================
+Install  1 Package (+3 Dependent packages)
+
+Total download size: 7.0 M
+Installed size: 23 M
+Downloading packages:
+(1/4): vim-filesystem-7.4.160-6.el7_6.x86_64.rpm                                 |  10 kB  00:00:00     
+(3/4): vim-common-7.4.160-6.el7_6.x86 0% [                            ]  0.0 B/s |  10 kB  --:--:-- ETA (3/4): vim-common-7.4.160-6.el7_6.x86 0% [                            ]  61 kB/s |  54 kB  00:01:56 ETA (2/4): gpm-libs-1.20.7-5.el7.x86_64.rpm                                          |  32 kB  00:00:00     
+(4/4): vim-enhanced-7.4.160-6.el7_6.x 1% [                            ]  71 kB/s | 126 kB  00:01:38 ETA (3/4): vim-common-7.4.160-6.el7_6.x86 7% [==                          ] 148 kB/s | 538 kB  00:00:44 ETA (3/4): vim-common-7.4.160-6.el7_6.x86 11% [===                        ] 199 kB/s | 840 kB  00:00:31 ETA (3/4): vim-common-7.4.160-6.el7_6.x86 13% [===-                       ] 209 kB/s | 964 kB  00:00:29 ETA (4/4): vim-enhanced-7.4.160-6.el7_6.x 17% [====-                      ] 255 kB/s | 1.2 MB  00:00:23 ETA (4/4): vim-enhanced-7.4.160-6.el7_6.x 24% [======-                    ] 334 kB/s | 1.7 MB  00:00:16 ETA (4/4): vim-enhanced-7.4.160-6.el7_6.x 29% [=======-                   ] 383 kB/s | 2.1 MB  00:00:13 ETA (4/4): vim-enhanced-7.4.160-6.el7_6.x 35% [=========                  ] 440 kB/s | 2.5 MB  00:00:10 ETA (3/4): vim-common-7.4.160-6.el7_6.x86 38% [==========                 ] 462 kB/s | 2.7 MB  00:00:09 ETA (3/4): vim-common-7.4.160-6.el7_6.x86 39% [==========-                ] 448 kB/s | 2.8 MB  00:00:09 ETA (3/4): vim-common-7.4.160-6.el7_6.x86 43% [===========-               ] 474 kB/s | 3.1 MB  00:00:08 ETA (4/4): vim-enhanced-7.4.160-6.el7_6.x 49% [=============              ] 527 kB/s | 3.5 MB  00:00:06 ETA (4/4): vim-enhanced-7.4.160-6.el7_6.x 57% [===============            ] 601 kB/s | 4.0 MB  00:00:05 ETA (4/4): vim-enhanced-7.4.160-6.el7_6.x 62% [================-          ] 638 kB/s | 4.4 MB  00:00:04 ETA (4/4): vim-enhanced-7.4.160-6.el7_6.x 67% [==================         ] 671 kB/s | 4.7 MB  00:00:03 ETA (3/4): vim-common-7.4.160-6.el7_6.x86 69% [==================-        ] 644 kB/s | 4.8 MB  00:00:03 ETA (3/4): vim-common-7.4.160-6.el7_6.x86 73% [===================-       ] 670 kB/s | 5.2 MB  00:00:02 ETA (3/4): vim-common-7.4.160-6.el7_6.x86 79% [=====================-     ] 714 kB/s | 5.6 MB  00:00:02 ETA (3/4): vim-enhanced-7.4.160-6.el7_6.x86_64.rpm                                   | 1.0 MB  00:00:06     
+(4/4): vim-common-7.4.160-6.el7_6.x86 86% [=======================    ] 741 kB/s | 6.0 MB  00:00:01 ETA (4/4): vim-common-7.4.160-6.el7_6.x86 90% [========================-  ] 747 kB/s | 6.3 MB  00:00:00 ETA (4/4): vim-common-7.4.160-6.el7_6.x86 95% [=========================- ] 772 kB/s | 6.7 MB  00:00:00 ETA (4/4): vim-common-7.4.160-6.el7_6.x86 99% [==========================-] 776 kB/s | 7.0 MB  00:00:00 ETA (4/4): vim-common-7.4.160-6.el7_6.x86_64.rpm                                     | 5.9 MB  00:00:08     
+--------------------------------------------------------------------------------------------------------
+Total                                                                   862 kB/s | 7.0 MB  00:00:08     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : gpm-libs-1.20.7-5.el7.x86_64 [                                                     ] 1/4  Installing : gpm-libs-1.20.7-5.el7.x86_64 [#################################################### ] 1/4  Installing : gpm-libs-1.20.7-5.el7.x86_64                                                         1/4 
+  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [                                          ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [#                                         ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [##                                        ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [###                                       ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [#####                                     ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [######                                    ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [#######                                   ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [#########                                 ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [##########                                ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [############                              ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [#############                             ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [###############                           ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [################                          ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [#################                         ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [###################                       ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [####################                      ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [#####################                     ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [#######################                   ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [########################                  ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [##########################                ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [###########################               ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [############################              ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [#############################             ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [###############################           ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [################################          ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [##################################        ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [###################################       ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [####################################      ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [#####################################     ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [#######################################   ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64 [########################################  ] 2/4  Installing : 2:vim-filesystem-7.4.160-6.el7_6.x86_64                                              2/4 
+  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [                                              ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [#                                             ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [##                                            ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [###                                           ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [####                                          ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [#####                                         ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [######                                        ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [#######                                       ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [########                                      ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [#########                                     ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [##########                                    ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [###########                                   ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [############                                  ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [#############                                 ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [##############                                ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [###############                               ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [################                              ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [#################                             ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [##################                            ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [###################                           ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [####################                          ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [#####################                         ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [######################                        ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [#######################                       ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [########################                      ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [#########################                     ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [##########################                    ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [###########################                   ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [############################                  ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [#############################                 ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [##############################                ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [###############################               ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [################################              ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [#################################             ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [##################################            ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [###################################           ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [####################################          ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [#####################################         ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [######################################        ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [#######################################       ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [########################################      ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [#########################################     ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [##########################################    ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [###########################################   ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [############################################  ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64 [############################################# ] 3/4  Installing : 2:vim-common-7.4.160-6.el7_6.x86_64                                                  3/4 
+  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [                                            ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [##                                          ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [###                                         ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [####                                        ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [######                                      ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [#######                                     ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [########                                    ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [#########                                   ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [###########                                 ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [############                                ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [#############                               ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [##############                              ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [################                            ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [#################                           ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [##################                          ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [###################                         ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [#####################                       ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [######################                      ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [#######################                     ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [#########################                   ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [###########################                 ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [############################                ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [#############################               ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [###############################             ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [################################            ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [#################################           ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [##################################          ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [####################################        ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [#####################################       ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [######################################      ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [########################################    ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [#########################################   ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [##########################################  ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64 [########################################### ] 4/4  Installing : 2:vim-enhanced-7.4.160-6.el7_6.x86_64                                                4/4 
+  Verifying  : 2:vim-enhanced-7.4.160-6.el7_6.x86_64                                                1/4 
+  Verifying  : 2:vim-filesystem-7.4.160-6.el7_6.x86_64                                              2/4 
+  Verifying  : gpm-libs-1.20.7-5.el7.x86_64                                                         3/4 
+  Verifying  : 2:vim-common-7.4.160-6.el7_6.x86_64                                                  4/4 
+
+Installed:
+  vim-enhanced.x86_64 2:7.4.160-6.el7_6                                                                 
+
+Dependency Installed:
+  gpm-libs.x86_64 0:1.20.7-5.el7                       vim-common.x86_64 2:7.4.160-6.el7_6             
+  vim-filesystem.x86_64 2:7.4.160-6.el7_6             
+
+Complete!
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ vagrant status
+bash: vagrant: command not found
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ]]][K[K[K
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ 
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ls
+[0m[01;32mbmi_calculator.py[0m                     [01;32mfile_interaction.py[0m      repl_boolean_and_none
+[01;32mcomment[0m                               [01;32mhello[0m                    [01;32mtimer.py[0m
+conditional_comparisons               [01;32mif_else_dict_in_list.py[0m  tuples
+[01;32mcreating_and_displaying_variables.py[0m  interacting_with_files   using_standard_library_packages
+dictionary_key_value_stuff            lists                    working_with_environment_variables
+[01;32menvironment_var_example.py[0m            [01;32mmultiline_string[0m         working_with_variables
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ls -lrt
+total 208
+-rwxrwxr-x. 1 vagrant vagrant   397 Aug 18 14:30 [0m[01;32mcreating_and_displaying_variables.py[0m
+-rw-rw-r--. 1 vagrant vagrant     0 Aug 18 14:30 conditional_comparisons
+-rwxrwxr-x. 1 vagrant vagrant   114 Aug 18 14:30 [01;32mcomment[0m
+-rwxrwxr-x. 1 vagrant vagrant  1296 Aug 18 14:30 [01;32mbmi_calculator.py[0m
+-rw-rw-r--. 1 vagrant vagrant  2893 Aug 18 14:30 working_with_variables
+-rw-rw-r--. 1 vagrant vagrant  5236 Aug 18 14:30 tuples
+-rw-rw-r--. 1 vagrant vagrant  1214 Aug 18 14:30 repl_boolean_and_none
+-rwxrwxr-x. 1 vagrant vagrant   110 Aug 18 14:30 [01;32mmultiline_string[0m
+-rw-rw-r--. 1 vagrant vagrant 12376 Aug 18 14:30 lists
+-rwxrwxr-x. 1 vagrant vagrant   797 Aug 18 14:30 [01;32mif_else_dict_in_list.py[0m
+-rwxrwxr-x. 1 vagrant vagrant    46 Aug 18 14:30 [01;32mhello[0m
+-rw-rw-r--. 1 vagrant vagrant  8811 Aug 18 14:30 dictionary_key_value_stuff
+-rwxr-xr-x. 1 vagrant vagrant   463 Aug 18 15:09 [01;32mtimer.py[0m
+-rw-rw-r--. 1 vagrant vagrant 74404 Aug 18 15:21 using_standard_library_packages
+-rwxr-xr-x. 1 vagrant vagrant   410 Aug 18 15:42 [01;32menvironment_var_example.py[0m
+-rw-rw-r--. 1 vagrant vagrant 34040 Aug 18 15:44 working_with_environment_variables
+-rwxr-xr-x. 1 vagrant vagrant     0 Aug 18 15:47 [01;32mfile_interaction.py[0m
+-rw-rw-r--. 1 vagrant vagrant 20480 Aug 18 15:47 interacting_with_files
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ls
+[0m[01;32mbmi_calculator.py[0m                     [01;32mfile_interaction.py[0m      repl_boolean_and_none
+[01;32mcomment[0m                               [01;32mhello[0m                    [01;32mtimer.py[0m
+conditional_comparisons               [01;32mif_else_dict_in_list.py[0m  tuples
+[01;32mcreating_and_displaying_variables.py[0m  interacting_with_files   using_standard_library_packages
+dictionary_key_value_stuff            lists                    working_with_environment_variables
+[01;32menvironment_var_example.py[0m            [01;32mmultiline_string[0m         working_with_variables
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ ls -lrt
+total 212
+-rwxrwxr-x. 1 vagrant vagrant   397 Aug 18 14:30 [0m[01;32mcreating_and_displaying_variables.py[0m
+-rw-rw-r--. 1 vagrant vagrant     0 Aug 18 14:30 conditional_comparisons
+-rwxrwxr-x. 1 vagrant vagrant   114 Aug 18 14:30 [01;32mcomment[0m
+-rwxrwxr-x. 1 vagrant vagrant  1296 Aug 18 14:30 [01;32mbmi_calculator.py[0m
+-rw-rw-r--. 1 vagrant vagrant  2893 Aug 18 14:30 working_with_variables
+-rw-rw-r--. 1 vagrant vagrant  5236 Aug 18 14:30 tuples
+-rw-rw-r--. 1 vagrant vagrant  1214 Aug 18 14:30 repl_boolean_and_none
+-rwxrwxr-x. 1 vagrant vagrant   110 Aug 18 14:30 [01;32mmultiline_string[0m
+-rw-rw-r--. 1 vagrant vagrant 12376 Aug 18 14:30 lists
+-rwxrwxr-x. 1 vagrant vagrant   797 Aug 18 14:30 [01;32mif_else_dict_in_list.py[0m
+-rwxrwxr-x. 1 vagrant vagrant    46 Aug 18 14:30 [01;32mhello[0m
+-rw-rw-r--. 1 vagrant vagrant  8811 Aug 18 14:30 dictionary_key_value_stuff
+-rwxr-xr-x. 1 vagrant vagrant   463 Aug 18 15:09 [01;32mtimer.py[0m
+-rw-rw-r--. 1 vagrant vagrant 74404 Aug 18 15:21 using_standard_library_packages
+-rwxr-xr-x. 1 vagrant vagrant   410 Aug 18 15:42 [01;32menvironment_var_example.py[0m
+-rw-rw-r--. 1 vagrant vagrant 34040 Aug 18 15:44 working_with_environment_variables
+-rwxr-xr-x. 1 vagrant vagrant     0 Aug 18 15:47 [01;32mfile_interaction.py[0m
+-rw-rw-r--. 1 vagrant vagrant 24576 Aug 18 17:56 interacting_with_files
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ vi file_test.txt
+[?1049h[?1h=[1;32r[34l[34h[?25h[23m[24m[0m[H[J[?25l[32;1H"file_test.txt" [New File][2;1H[1m[34m~                                                                                                       [3;1H~                                                                                                       [4;1H~                                                                                                       [5;1H~                                                                                                       [6;1H~                                                                                                       [7;1H~                                                                                                       [8;1H~                                                                                                       [9;1H~                                                                                                       [10;1H~                                                                                                       [11;1H~                                                                                                       [12;1H~                                                                                                       [13;1H~                                                                                                       [14;1H~                                                                                                       [15;1H~                                                                                                       [16;1H~                                                                                                       [17;1H~                                                                                                       [18;1H~                                                                                                       [19;1H~                                                                                                       [20;1H~                                                                                                       [21;1H~                                                                                                       [22;1H~                                                                                                       [23;1H~                                                                                                       [24;1H~                                                                                                       [25;1H~                                                                                                       [26;1H~                                                                                                       [27;1H~                                                                                                       [28;1H~                                                                                                       [29;1H~                                                                                                       [30;1H~                                                                                                       [31;1H~                                                                                                       [1;1H[34h[?25h[?25l[0m[32;1H[1m-- INSERT --[0m[32;13H[K[1;1H[34h[?25h[?25lD[34h[?25h[?25li[34h[?25h[?25ll[34h[?25h[?25l [34h[?25h[?25lC[34h[?25h[?25lh[34h[?25h[?25la[34h[?25h[?25lh[34h[?25h[?25lt[34h[?25h[?25la[34h[?25h[?25l [34h[?25h[?25lH[34h[?25h[?25la[34h[?25h[?25li[34h[?25h[?25l [34h[?25h[?25l[2;1H[K[2;1H[34h[?25h[?25lR[34h[?25h[?25lo[34h[?25h[?25lc[34h[?25h[?25lk[34h[?25h[?25ly[34h[?25h[?25l[3;1H[K[3;1H[34h[?25h[?25lP[34h[?25h[?25lu[34h[?25h[?25lr[34h[?25h[?25ls[34h[?25h[?25lu[34h[?25h[?25li[34h[?25h[?25lt[34h[?25h[?25l [34h[?25h[?25lo[34h[?25h[?25lf[34h[?25h[?25l [34h[?25h[?25lh[34h[?25h[?25la[34h[?25h[?25lp[34h[?25h[?25lp[34h[?25h[?25li[34h[?25h[?25ln[34h[?25h[?25le[34h[?25h[?25ls[34h[?25h[?25ls[34h[?25h[?25l[4;1H[K[4;1H[34h[?25h[?25lR[34h[?25h[?25lo[34h[?25h[?25lc[34h[?25h[?25lk[34h[?25h[?25ls[34h[?25h[?25lt[34h[?25h[?25la[34h[?25h[?25lr[34h[?25h[?25l[5;1H[K[5;1H[34h[?25h[?25lS[34h[?25h[?25le[34h[?25h[?25l[5;2H[K[5;2H[34h[?25h[?25lp[34h[?25h[?25le[34h[?25h[?25lc[34h[?25h[?25li[34h[?25h[?25la[34h[?25h[?25ll[34h[?25h[?25l2[34h[?25h[?25l6[34h[?25h[?25l[6;1H[K[6;1H[34h[?25h[?25lS[34h[?25h[?25la[34h[?25h[?25ln[34h[?25h[?25la[34h[?25h[?25lm[34h[?25h[?25l [34h[?25h[?25lB[34h[?25h[?25le[34h[?25h[?25lf[34h[?25h[?25la[34h[?25h[?25lw[34h[?25h[?25la[34h[?25h[?25l[7;1H[K[7;1H[34h[?25h[?25lS[34h[?25h[?25la[34h[?25h[?25la[34h[?25h[?25lh[34h[?25h[?25li[34h[?25h[?25lb[34h[?25h[32;1H[K[7;6H[?25l[34h[?25h[?25l[32;1H:[34h[?25hx[?25l"file_test.txt" [New] 7L, 82C written
+[?1l>[34h[?25h[?1049lkvagrant@localhost:~/development/python\[vagrant@localhost python]$ movies =open(""f"i"l"e"_"t"e"s"t".file_test"/file_test"[C[C[C[C[C[C[C[C[C."t"x"t"[C,r)[C[C[C
+bash: syntax error near unexpected token `('
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ movies =open("./file_test.txt",r)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpython
+Python 2.7.5 (default, Apr  9 2019, 14:30:50) 
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-36)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [H[J>>> movies = open('[K"./file_test.txt",r r[C)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'r' is not defined
+>>> movies = open("./file_test.txt", r)[1Pr) r)'r)[C[1P)[1P)")r)")
+>>> movies.read()
+'Dil Chahta Hai \nRocky\nPursuit of happiness\nRockstar\nSpecial26\nSanam Befawa\nSaahib\n'
+>>> movies.read()
+''
+>>> "if you notice the second movies.read() return nothing, that's because read() method starts reading  from current curspor position to the end of file, in this case when we ran it first time cursor was at t he begninn[K[K[K[Kining of gi[K[Kfile and[K[Knd on seo[Kcond time it was already at end of file, hence o[Kno result, to reposition cur sot we must use method like seek() to place[1@0[C[C[C[C[C[C[C[C[C[C[K[K[K[K[Kse [Kt it back at e[Kbegining op[Kf file"
+"if you notice the second movies.read() return nothing, that's because read() method starts reading from current curspor position to the end of file, in this case when we ran it first time cursor was at the begining of file and on second time it was already at end of file, hence no result, to reposition cursot we must use method like seek(0) to set it back at begining of file"
+>>> movies.seek(0)
+>>> movies.seek(0)[C[C[C[C"if you notice the second movies.read() return nothing, that's because read() method starts reading ffrom current curspor position to the end of file, in this case when we ran it first time cursor was at thhe begining of file and on second time it was already at end of file, hence no result, to reposition curssot we must use method like seek(0) to set it back at begining of file"MMM[C[C[C[Cmovies.read()[K
+[K
+[K
+[KMMM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+'Dil Chahta Hai \nRocky\nPursuit of happiness\nRockstar\nSpecial26\nSanam Befawa\nSaahib\n'
+>>> movi        [Kes
+<open file './file_test.txt', mode 'r' at 0x7f80fe3855d0>
+>>> "here we can see just by calling our object we can see various details about it like what file it po ints to, mode and on[Kbject address"
+'here we can see just by calling our object we can see various details about it like what file it points to, mode and object address'
+>>> movies.seek(15)
+>>> movies.seek(15)[C[C[C[C"here we can see just by calling our object we can see various details about it like what file it poiints to, mode and object address"M[C[C[C[Cmovies[K
+[KM[C[C[C[C[C[C[C[C[C[C.read()
+'\nRocky\nPursuit of happiness\nRockstar\nSpecial26\nSanam Befawa\nSaahib\n'
+>>> movies.read()seek(15)[1P)6)
+>>> movies.seek(16)[2Pread()
+'Rocky\nPursuit of happiness\nRockstar\nSpecial26\nSanam Befawa\nSaahib\n'
+>>> "iterating through the file,[K [K, since we already have ab[Kn object to [1P[C[1@ [1@=[1P[1@-[C[1@ [C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K'movies' pointint[K[K[K[K[K[K[K[Kof file file type'[K"
+"iterating through the file - since we already have an object 'movies' of file file type"
+>>> for line in [K[K[K[K[K[K[K[Kmovie in movi[K[K[K[K[K[K[K[K[K[K[K[K[Kline in movies:
+...     print(line, end="")
+  File "<stdin>", line 2
+    print(line, end="")
+                   ^
+SyntaxError: invalid syntax
+>>>     print(line, end="")[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)
+  File "<stdin>", line 1
+    print(line)
+    ^
+IndentationError: unexpected indent
+>>>     print(line), end=""))[K, end="")[C[C[C[C[4Pfor line in movies:
+... for line in movies:[C[C[C[C[4P    print(line), end=""))[K
+... 
+>>> movies.seek)[K(0)
+>>> movies.seek(0)[C[C[C[C    print(line)[C[C[C[Cfor line in movies:
+... for line in movies:[C[C[C[C[5Pmovies.seek(0)[C[C[C[C    print(line)
+... 
+Dil Chahta Hai 
+
+Rocky
+
+Pursuit of happiness
+
+Rockstar
+
+Special26
+
+Sanam Befawa
+
+Saahib
+
+>>> "It is importatn[K[Knt to close the[K[K[K[K[K[K[K[Kall close() method at the end of fie [K[Kle operations. fails[K[K[K[K[K[K[K, otherwise the file resource w ould remain open, also [K[K[K[K[K[K[K"
+'It is important to call close() method at the end of file operations, otherwise the file resource would remain open'
+>>> movies.seek(0)
+>>> movies.read()
+'Dil Chahta Hai \nRocky\nPursuit of happiness\nRockstar\nSpecial26\nSanam Befawa\nSaahib\n'
+>>> movies.close()
+>>> movies.close()[1Pread()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: I/O operation on closed file
+>>> "this error came becase we have effectively closed the file"
+'this error came becase we have effectively closed the file'
+>>> movies.name
+'./file_test.txt'
+>>> movies
+<closed file './file_test.txt', mode 'r' at 0x7f80fe3855d0>
+>>> "This object will exist till the end of REPL session, however the file is closed"
+'This object will exist till the end of REPL session, however the file is closed'
+>>> "Write operations on file ,[K - for this we use the same open [K90[K[K() method, jsut change the mode to 'w'"
+"Write operations on file  - for this we use the same open() method, jsut change the mode to 'w'"
+>>> shows = open("tv_sho[K[K[K[K[K[K./tv_shows.txt", w)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'w' is not defined
+>>> shows = open("./tv_shows.txt", w)"w)[C")
+>>> shows.write("This is list of my fav. tv shoes[K[Kws")
+>>> "using write() method) we[K[K[K[K[Kd, we wrote string to file, howecver[K[K[K[Kver at this point we can't read it back because  or[K[Kof 'w' mode of operations, s[K[K[K[K. So we need to close it and open with 'r+' to read &[K[K/write both, when we write it M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K!"
+"using write() method, we wrote string to file, however at this point we can't read it back because of 'w' mode of operation. So we need to close it and open with 'r+' to read/write both!"
+>>> shows.close()
+>>> showe[Kw[Ks.read[K[K[K[Kopen("./[K[K[K[K[K[K[K[K[K
+<closed file './tv_shows.txt', mode 'w' at 0x7f80fe385660>
+>>> shows = open [K()[C").)/)[1P)[1P)t)v)_)s)h)o)w)s).)t)s)[1P)x)t)'),)[C[C[C[1P,)",)[C[C )")r)+)")[C
+>>> shows.read()
+'This is list of my fav. tv shows'
+>>> shows.write("1. ITCrowd Crowd[C[C[C[C[C")
+>>> shows.read()
+''
+>>> shows.seek(0)
+>>> shows.seek(0)[1Pread()
+'This is list of my fav. tv shows1. IT Crowd'
+>>> shows.read()seek(0)[1Pread()write("1. IT Crowd")[C[C[C[C[C[C[C[C[C[Cread()[Kseek(0)
+>>> shows.seek(0)[K[K[K[K[K[K[Kwrite[K[K[K[K[K[K[K[K[K[K[K("s[K[K[K"see above the IT Crows goi[K[K[K[K[K[K[K[K[K[K[K[Kshow going to next line it was just appended to same line, we may want ot try to use  \n"
+'see above the show going to next line it was just appended to same line, we may want ot try to use \n'
+>>> shows./[Kwrite"[K("")2").") ")B")i")g") ")b")a")n")g") ")t")h")e")o")r")i")[1P")y")[1@\[1@n
+>>> shows.write("\n2. Big bang theory")[C[C[C[C"see above the show going to next line it was just appended to same line, we may want ot try to use \\n"M[Cshows.seek(0)[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pread()[1P()[1P()[1P()[1P()s()e()e()k()[C0)
+>>> shows.seek(0)write("\n2. Big bang theory")[C[C[C[C[C[C[C[C[C[Cseek(0)[Kwrite("\n2. Big bang theory")[C[C[C[C"see above the show going to next line it was just appended to same line, we may want ot try to use \\n"M[Cshows.seek(0)[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pread()
+'\n2. Big bang theoryfav. tv shows1. IT Crowd'
+>>> "bull crap it [K[K[Kwhen i did seek(0) it took to the begning [K[K[K[K[Kining of file and overwrote the exisiting text itsel f"," "p"r"o"b"a"b"l"y" "t"h"a"t"'"s" "w"h"y" "w"e" "n"e"e"d" "t"o" "u"s"e" "a"p"p"e"n"d"(")" "m"e"t"h"o"f"[1P"d"."
+"bull crap when i did seek(0) it took to the begining of file and overwrote the exisiting text itself, probably that's why we need to use append() method."
+>>> "bull crap when i did seek(0) it took to the begining of file and overwrote the exisiting text itselff, probably that's why we need to use append() method."M[C[C[C[Cshows.read()[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P()[1P()[1P()[1P()a()p()p()e()n()d()[C")")3").") ")X")f")i")o")e")s")[1P")[1P")[1P")l")e")s") files")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'file' object has no attribute 'append'
+>>> shows.[K[K[K[K[K[K"crap we haven't opened the file in appen[K[K[K[K[K'a' mode."
+"crap we haven't opened the file in 'a' mode."
+>>> shows.close()
+>>> shows.close()[K[K[K[K[K[K[K[K = open[K[K[K[K[K[K
+<closed file 'tv_shows.txt', mode 'r+' at 0x7f80fe3856f0>
+>>> shows = opertn[K[K[Kn ()")") ),) )")a)")[1@t[1@v[1@_[1@s[1@h[1@o[1@w[1@s[1@.[1@t[1@x[1@t[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+>>> shows.te[K[Kwrite("3. X files")
+>>> shows.reads[K()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IOError: File not open for reading
+>>> shows.read()write("3. X files")[1P[1@4[C[C[C[C[C[C[C[C[C[1P")[1P")[1P")[1P")[1P")[1P")[1P")S")a")r")a")b")h")a")i") ")v")s") ")S")a")r")a")b")h")a")i")
+>>> shows.write("4. Sarabhai vs Sarabhai")[1P[1P[1P[1P[1P[1@a[1@p[1@p[1@e[1@n[1@d[C[C[C[1P[1@5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P")[1P") ")T")h")e") ")o")f")f")i")c")e")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'file' object has no attribute 'append'
+>>> "Well , there is no append)[K() method appra[Kently"
+'Well , there is no append() method apprently'
+>>> shows.close
+<built-in method close of file object at 0x7f80fe385660>
+>>> shows.close()
+>>> shows = open("tc_shows.txt" , 'r')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IOError: [Errno 2] No such file or directory: 'tc_shows.txt'
+>>> shows = open("tc_shows.txt" , 'r')[1P[1@v
+>>> shoe[Kws[K[K[K[K[Kfor i in shows:
+... i.[K print[K[K[K[K[K[K[K    print(i)
+... 
+
+
+2. Big bang theoryfav. tv shows1. IT Crowd3. X files4. Sarabhai vs Sarabhai
+>>> shows.close
+<built-in method close of file object at 0x7f80fe3856f0>
+>>> shows.close()
+>>> shows.[K = open()")t)v)_)s)h)o)w)s)"),) )")r)")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IOError: [Errno 2] No such file or directory: 'tv_shows'
+>>> shows = open("tv_shows", "r")[1@.[1@t[1@x[1@t[C[C[C[C[C[C[C
+>>> shows.read()
+'\n2. Big bang theoryfav. tv shows1. IT Crowd3. X files4. Sarabhai vs Sarabhai'
+>>> "Aswe [K[K[K we see in this example our tv_shows file call[K[K[K[Kgot jumbled up, partly because of the way tried to do o ur stuff. so when you plan to attend [K[K[K[K[K[K[Knot overwrite content always open it with 'a' mode, and when you want to j ust read it , use 'r'"
+"As we see in this example our tv_shows file got jumbled up, partly because of the way tried to do our stuff. so when you plan to not overwrite content always open it with 'a' mode, and when you want to just read it , use 'r'"
+>>> with open("tv_shows2.txt" ,[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K"Since closing [K[K[K[Ke90 operation a[K[K is a chore that we do everytime, rather just[K[K[K[K[K[K[K[K[K[K[K[Kwe can use 'with statement' , the advantage  is we don't have to use close() any more, with[K[K[K[Kat the end of with'with[C[C[C[C' the file gets closed automatically."
+"Since close90 operation is a chore that we do everytime,we can use 'with statement' , the advantage is we don't have to use close() any more, at the end of 'with' the file gets closed automatically."
+>>> with open(""),) )')[1P)')w);)')[1P)[1P)')[C[C[1P)[1P)[1P)")w)")[1@t[1@v[1@_[1@s[1@h[1@o[1@w[1@s[1@2[1@.[1@t[1@x[1@t[C[C[C[C[C[C[C as show:
+...     show.write("?[KList of my m[Kfavourite shows.\n")
+...     show/[K.write("1. The office"\"n"[C)
+...     show.write()")")2").") ")T")H")e") ")b")i")g") ")b")a")n")g") ")t")h")e")o")r")y")[C[C
+... 
+>>> with open(""t"v"_"s"h"o"w"s"2"."t"x"t"[C, "r") as show[K[K[K[Kshow:
+...     show.read()[K[K[K[K[K[K[K[K[K[K[Kprint(show)[K[K[K[K[K[K[K[K[K[K[Kshow.readline()
+... 
+'List of my favourite shows.\n'
+>>>     show.readline()[C[C[C[Cwith open("tv_shows2.txt", "r") as show:
+... with open("tv_shows2.txt", "r") as show:[C[C[C[C[21P    show.readline()[1P()[1P()[1P()[1P()
+... 
+'List of my favourite shows.\n1. The office\n2. THe big bang theory'
+>>> for i in shows[K[Kw:
+...     print(i)
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: I/O operation on closed file
+>>> show.open("", "r")[1@t[1@v[1@_[1@s[1@h[1@o[1@w[1@s[1@2[1@.[1@t[1@x[1@t[C[C[C[C[C[C[C
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'file' object has no attribute 'open'
+>>> show.open("tv_shows2.txt", "r")[C[C[C[C[C[C[C[C[C[1@/[C[C[1P[1P[1@=
+>>> show[K[K[K[Kfor i in show"[K:
+...     print(i)
+... 
+List of my favourite shows.
+
+1. The office
+
+2. THe big bang theory
+>>> 
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ pyhth[K[K[Kthon
+Python 2.7.5 (default, Apr  9 2019, 14:30:50) 
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-36)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [H[J>>> "Another way of using with statement is , first initial the [K[K[K[K[K[Kl the file's object an [Kf then use it directly w ith 'with' as below."
+"Another way of using with statement is , first initial the file's object anf then use it directly with 'with' as below."
+>>> f[Kshows = ("")t")v")_")s")h")o")w")s")2").")t")x")t")[C ),) )")r)") )[1P)[C
+>>> with shows:
+...     print[K[K[K[K[Kshows.read()
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: __exit__
+>>>     shows.read()[C[C[C[C[Kwith    shows.read()[C[C[C[C[5Pwith shows:[C[C[C[Cshows = ("tv_shows2.txt" , "r")[1P")a")
+>>> shows = ("tv_shows2.txt" , "a")[C[C[C[C[15P    shows.read()[C[C[C[C[5Pwith shows:
+...     shows.write("4.[K[K3. IT Crows[Kd"\n[K[K[K\n")
+... m[K    shows/[K.write("")4").") ")F")a")u")j")u")[1P")o")i")[1P")[1P")i")[C[C\")n")[C[C
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: __exit__
+>>> d[K"the damn with[K[K[K[K'with' statement does not seem to wopr[K[Krk"
+"the damn 'with' statement does not seem to work"
+>>> "the damn 'with' statement does not seem to work"[C[C[C[C[20P    shows.write("4. Fauji\n")3. IT Crowd\n")[C[C[C[C[21Pwith shows:[C[C[C[Cshows = ("tv_shows2.txt" , "a")[1P")r")
+>>> shows.read()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'read'
+>>> ec[Kxit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+>>> d[K
+kvagrant@localhost:~/development/python\[vagrant@localhost python]$ exit
+
+Script done on Sun 18 Aug 2019 06:53:15 PM UTC
